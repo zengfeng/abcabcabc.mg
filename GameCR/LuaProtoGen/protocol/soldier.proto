@@ -1,0 +1,12 @@
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolSoldier";
+option optimize_for = SPEED;
+
+message C_BuySoldier_0x650 {
+	required int32 soldierId = 1;
+	required int32 buy_type = 2;  // 1.铜钱购买  2.元宝购买 
+}
+
+message S_BuySoldier_0x650 {
+	repeated int32 soldiers = 1;
+}

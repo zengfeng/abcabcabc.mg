@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+  m_Name: idle
+  m_EditorClassIdentifier: 
+  action: idle
+  frameTime: 0.08333
+  deltaAngle: 45
+  offsetAngle: 0
+  clips:
+  - {fileID: 11400000, guid: 3d61dbf3de9455f4eb6007cae3846e97, type: 2}
+  - {fileID: 11400000, guid: e4fb9d2ce14f6ca48bc5a51851f09473, type: 2}
+  - {fileID: 11400000, guid: 69624ba7ffe3f7841b54f59359b66619, type: 2}
+  - {fileID: 11400000, guid: e299a5e2d0623b547b9c3d7b165d01fb, type: 2}
+  - {fileID: 11400000, guid: f693c5819abf0d44bb3e61da13050740, type: 2}
+  - {fileID: 11400000, guid: 9330b2e7d404dda408b154b9598ad90b, type: 2}
+  - {fileID: 11400000, guid: 9ffdffda45560064eb1041d1bd1b59fe, type: 2}
+  - {fileID: 11400000, guid: cd6fcce6cbe64e145bfb41de4fc3cf4e, type: 2}

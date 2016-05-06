@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: win_135
+  m_EditorClassIdentifier: 
+  actionName: win
+  angle: 135
+  flip: 0
+  loop: 1
+  frames:
+  - {fileID: 21300000, guid: 1e15fd56e71be3848b48e0dc866d58a7, type: 3}
+  - {fileID: 21300000, guid: 92311e372a1dd1845bf79b280acb24ee, type: 3}
+  - {fileID: 21300000, guid: 6328a13ae4dfb1442ac95dca7a0e136f, type: 3}
+  - {fileID: 21300000, guid: 08703c7ea0bfb9043800f8569a24e9ab, type: 3}
+  - {fileID: 21300000, guid: 7fcb5229142ec8448a9b7bd097c24344, type: 3}

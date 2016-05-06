@@ -1,0 +1,12 @@
+Coo = CC.Runtime.Coo;
+Util = SimpleFramework.Util;
+GameConst = Games.GameConst;
+LuaHelper = SimpleFramework.LuaHelper;
+ByteBuffer = SimpleFramework.ByteBuffer;
+SysmsgManager = Games.Module.Sysmsgs.SysmsgManager;
+War = Games.Module.Wars.War
+WinType = Games.Module.Wars.WinType
+VSMode = Games.Module.Wars.VSMode
+CSProp = Games.Module.Props.Prop
+MenuLayerType = CC.Module.Menu.MenuLayerType
+DateTimeUtils = CC.Runtime.Utils.DateTimeUtils

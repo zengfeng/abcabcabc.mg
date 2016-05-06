@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: idle_225
+  m_EditorClassIdentifier: 
+  actionName: idle
+  angle: 225
+  flip: 1
+  loop: 1
+  frames:
+  - {fileID: 21300000, guid: cae65ccf0249a40bfa150d0905b5f98e, type: 3}
+  - {fileID: 21300000, guid: 3d88b25df707143ee9d075239cdfd0ee, type: 3}
+  - {fileID: 21300000, guid: 6a118b9a0d58d4ea0973c7ff4f59e9c1, type: 3}
+  - {fileID: 21300000, guid: aa74054b9ef6d4faeba3804250eedc26, type: 3}
+  - {fileID: 21300000, guid: 58ab091dbd07c4512b49acac38b2811c, type: 3}

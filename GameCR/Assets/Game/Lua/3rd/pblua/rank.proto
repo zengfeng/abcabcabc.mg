@@ -1,0 +1,14 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolRank";
+option optimize_for = SPEED;
+
+message C_GetRoleRankList_0x600 {
+	required int32 start = 1;
+	required int32 end = 2;
+}
+
+message S_GetRoleRankList_0x600 {
+	required int32 self_rank = 1;
+	repeated ProtoRankRoleInfo rank_roles = 2;
+}

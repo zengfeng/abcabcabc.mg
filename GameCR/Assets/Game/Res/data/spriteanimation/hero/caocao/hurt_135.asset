@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: hurt_135
+  m_EditorClassIdentifier: 
+  actionName: hurt
+  angle: 135
+  flip: 0
+  loop: 0
+  frames:
+  - {fileID: 21300000, guid: 931d685a856814d2089129a54ed67b51, type: 3}
+  - {fileID: 21300000, guid: 157c7b48731b84f86b92da808e176492, type: 3}
+  - {fileID: 21300000, guid: afb109ab11c5145b4b322b885a2e290c, type: 3}
+  - {fileID: 21300000, guid: 56b996db1196f4e2f91b403890d3285b, type: 3}
+  - {fileID: 21300000, guid: 07aed515d16ff410c93f739a43274d1d, type: 3}

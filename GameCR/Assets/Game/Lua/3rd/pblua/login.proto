@@ -1,0 +1,53 @@
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolLogin";
+option optimize_for = SPEED;
+
+message C_UserLogin_0x01 {
+	required string user_name = 1; // 用户标示
+	required string platform = 2;  // 渠道名称
+	optional string token = 3;     // 登录令牌 
+	optional string device_id = 4; // 设备mac地址
+}
+
+message S_UserLogin_0x01 {
+	optional string user_id = 1;
+	optional string session_id = 2;
+	repeated ProtoServerInfo server_info = 3;
+}
+
+enum ServerStatus{
+	CLOSE=1; //关闭
+	NEW=2;   //新服
+	FULL=3;  //爆满
+}
+
+message ProtoServerInfo{
+	required int32 id = 1;
+	optional string name = 2;
+	required string ip_addr = 3;
+	required int32 port = 4;
+	optional ServerStatus status = 5;
+}
+
+// 以下协议弃用
+message C_UserRegister_0x02 {
+	required string user_name = 1;
+	required string pwd = 2;
+}
+
+message S_UserRegister_0x02 {
+}
+
+message C_ServerList_0x03 {
+}
+
+message S_ServerList_0x03 {
+	repeated ProtoServerInfo server_info = 1;
+}
+
+message C_SelectServer_0x04 {
+	required int32 server_id = 1;
+}
+
+message S_SelectServer_0x04 {
+}

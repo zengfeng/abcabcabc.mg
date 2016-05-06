@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+  m_Name: win
+  m_EditorClassIdentifier: 
+  action: win
+  frameTime: 0.08333
+  deltaAngle: 45
+  offsetAngle: 0
+  clips:
+  - {fileID: 11400000, guid: e3a7615d95b6da948a08bd8733180a55, type: 2}
+  - {fileID: 11400000, guid: 8bc0db95faf85aa4fb1bc8ee9bcc2b79, type: 2}
+  - {fileID: 11400000, guid: d6476b3bdc76fcc4a93f607233a2ec26, type: 2}
+  - {fileID: 11400000, guid: 0d93d3e32c6aee24ab1c1235244c228b, type: 2}
+  - {fileID: 11400000, guid: 74db538d1b7ae4240a297128e7f5ccfd, type: 2}

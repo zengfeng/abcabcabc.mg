@@ -1,0 +1,360 @@
+
+Ø$
+
+hall.proto"p
+ProtoRoleBaseInfo
+roleId (
+name (	
+icon (
+level (
+	level_exp (
+prize ("Á
+ProtoRoleStatisticInfo
+	max_prize (
+arena_fight_win (
+arena_perfect_win (
+arena_fight_count (
+arena_streak_victory (
+often_fight_card (
+total_card_count (
+donate_card_count ("¿
+ProtoRoleDisplayInfo%
+	base_info (2.ProtoRoleBaseInfo%
+league_info (2.ProtoLeagueInfo/
+statistic_info (2.ProtoRoleStatisticInfo)
+battle_info (2.ProtoRoleBattleInfo"Õ
+ProtoRoleInfo%
+	base_info (2.ProtoRoleBaseInfo
+coins (
+money (
+new_guide_step ()
+battle_info (2.ProtoRoleBattleInfo%
+league_info (2.ProtoLeagueInfo
+soldiers (
+cards (2.ProtoCardInfo
+chests	 (2.ProtoChestInfo
+shops
+ (2.ProtoShopInfo
+tasks (2.ProtoTaskInfo
+unread_mail_count (.
+dungeon_stages (2.ProtoDungeonStageInfo
+signs (2.ProtoSignInfo
+status_mark ("'
+C_EnterGame_0x100
+
+session_id (	"f
+S_EnterGame_0x100
+current_server_time ( 
+roleInfo (2.ProtoRoleInfo
+
+session_id (	"'
+C_ReConnect_0x101
+
+session_id (	"$
+S_ReConnect_0x101
+retcode (""
+C_ChangeName_0x102
+name (	"7
+S_ChangeName_0x102
+name (	
+status_mark ("
+S_KickOut_0x103"'
+C_EnterFight_0x104
+	sessionId (	"
+S_EnterFight_0x104"+
+C_ChangeHeadIcon_0x105
+	avatar_id ("+
+S_ChangeHeadIcon_0x105
+	avatar_id ("%
+C_PacketTest_0x110
+content (	"%
+S_PacketTest_0x110
+content (	"+
+C_UpdateGuideStep_0x118
+new_step ("L
+S_UpdateGuideStep_0x118
+new_step (
+chests (2.ProtoChestInfo".
+C_RecordSubGuideStep_0x119
+sub_step ("
+S_RecordSubGuideStep_0x119",
+C_GetRoleDisplayInfo_0x120
+roleId ("I
+S_GetRoleDisPlayInfo_0x120+
+display_info (2.ProtoRoleDisplayInfo"ï
+S_RewardInfoNotify_0x150
+reward_type (
+reward_coins (
+reward_money (
+
+reward_exp ($
+reward_cards (2.ProtoCardInfo"k
+S_RoleBaseInfoNotify_0x151
+level (
+	level_exp (
+coins (
+money (
+prize (">
+ProtoCardInfo
+card_id (
+level (
+count ("¥
+ProtoChestInfo
+online_chest_count (
+next_online_chest_ticks (
+star_chest_starcount (
+next_star_chest_ticks ((
+drop_chests (2.ProtoDropChestInfo"X
+ProtoDropChestInfo
+pos (
+status (
+chestId (
+unlock_ticks ("S
+ProtoShopInfo
+next_refresh_ticks (&
+
+sell_items (2.ProtoShopItemInfo"s
+ProtoShopItemInfo
+pos (
+item_id (
+
+item_count (
+currency_type (
+currency_cost ("Z
+ProtoTaskInfo
+task_id (
+	task_type (
+task_progress (
+status ("ﬁ
+ProtoBattleVideoInfo
+stageId (.
+fight_roles (2.ProtoBattleVideoRoleInfo
+create_time (
+uuid (	
+
+video_data (
+
+share_time (
+war_version (
+	uid_local (
+
+view_count	 ("Ú
+ProtoBattleVideoRoleInfo%
+	role_info (2.ProtoRoleBaseInfo%
+league_info (2.ProtoLeagueInfo)
+battle_info (2.ProtoRoleBattleInfo
+end_type (
+change_prize (
+final_house (
+
+final_star (
+rank ("H
+ProtoRankRoleInfo
+rank (%
+	role_info (2.ProtoRoleBaseInfo"Ú
+ProtoLeagueInfo
+leagueId (
+name (	
+icon (
+prize (
+member_count (
+description (	
+type (
+
+need_prize (
+location	 (
+donate_card_weekly
+ ('
+members (2.ProtoLeagueMemberInfo"a
+ProtoLeagueMemberInfo%
+	role_info (2.ProtoRoleBaseInfo
+job (
+denote_cards ("S
+ProtoRoleBattleInfo
+battle_soldier ($
+battle_cards (2.ProtoCardInfo"Ç
+ProtoFightRoleInfo%
+	role_info (2.ProtoRoleBaseInfo%
+league_info (2.ProtoLeagueInfo)
+battle_info (2.ProtoRoleBattleInfo
+is_robot (
+team_id (
+
+team_group (
+robot_ai (
+arena_streak_victory (
+rank	 ("*
+ProtoPropInfo
+
+id (
+value ("A
+ProtoFightServerInfo
+fs_id (
+host (	
+port ("Å
+ProtoRoleFightResult
+roleId (
+end_type (
+star (
+build_count (
+build_total (
+team_id ("q
+ProtoDungeonStageInfo
+dungeonStageId (
+open_chest_count (&
+
+sub_stages (2.ProtoSubStageInfo"2
+ProtoSubStageInfo
+stageId (
+star ("'
+C_ExchangeCdkey_0x1050
+cdkey (	"
+S_ExchangeCdkey_0x1050"3
+ProtoSignInfo
+sign_day (
+can_sign ("
+C_GmCmd_0x1618
+cmd (	"
+S_GmCmd_0x1618B(
+game.protocol.protobufBProtocolHallH
+‚
+battle.proto
+hall.proto"-
+C_AttendMatcher_0x800
+matcher_type ("
+S_AttendMatcher_0x800"
+C_LeaveMatcher_0x801"
+S_LeaveMatcher_0x801"≤
+S_PvPMatched_0x802
+matcher_type (
+battle_room_id (
+battle_stage_id ((
+fight_roles (2.ProtoFightRoleInfo+
+fight_server (2.ProtoFightServerInfo"
+S_BattleRoomPrepare_0x810"&
+C_BattleLoad_0x811
+progress ("6
+S_BattleLoad_0x811
+roleId (
+progress ("
+S_BattleStart_0x812"-
+C_BattleLeave_0x813
+battle_room_id ("&
+S_BattleLeave_0x813
+role_id ("Q
+C_SyncSendArm_0x820
+from (
+
+to (
+count (
+	uid_begin ("Q
+S_SyncSendArm_0x820
+from (
+
+to (
+count (
+	uid_begin ("D
+ProtoFightUnitInfo
+unit_id (
+props (2.ProtoPropInfo";
+C_SyncProp_0x821'
+
+unit_props (2.ProtoFightUnitInfo";
+S_SyncProp_0x821'
+
+unit_props (2.ProtoFightUnitInfo"ô
+SkillEffectItem
+	effect_id (
+skill_value (
+continue_time (
+dis_ids (	
+x (	
+y (	
+z (
+cur_build_uid	 ("±
+C_SyncSkill_0x822
+uid (
+skill_id (
+
+skill_id_2 (
+src_id (+
+skill_effect_item (2.SkillEffectItem,
+skill2_effect_item (2.SkillEffectItem"±
+S_SyncSkill_0x822
+uid (
+skill_id (
+
+skill_id_2 (
+src_id (+
+skill_effect_item (2.SkillEffectItem,
+skill2_effect_item (2.SkillEffectItem"*
+C_AttackBuild_0x823
+build_index ("D
+C_SyncUplevel_0x825
+build_id (
+level (
+time ("D
+S_SyncUplevel_0x825
+build_id (
+level (
+time (":
+C_SyncTurret_0x826
+build_id (
+
+solider_id (":
+S_SyncTurret_0x826
+build_id (
+
+solider_id ("8
+C_SyncBuild_0x827
+build_id (
+	legion_id ("8
+S_SyncBuild_0x827
+build_id (
+	legion_id ("G
+C_SyncHeroBackstage_0x828
+hero_uid (
+target_legion_id ("G
+S_SyncHeroBackstage_0x828
+hero_uid (
+target_legion_id (":
+C_BattleEnd_0x830%
+result (2.ProtoRoleFightResult"•
+S_BattleEnd_0x830
+prize (
+arena_fight_win (
+arena_fight_count (
+arena_streak_victory (
+is_drop (
+chests (2.ProtoChestInfo+
+fight_result (2.ProtoRoleFightResult(
+fight_roles (2.ProtoFightRoleInfo
+
+end_reason	 (
+
+video_type
+ (B*
+game.protocol.protobufBProtocolBattleH
+Ã
+video.proto
+hall.proto"Q
+ProtoShareVideoInfo
+share_roleId ($
+video (2.ProtoBattleVideoInfo"[
+C_UploadBattleVideo_0x550
+upload_type ()
+share_video (2.ProtoShareVideoInfo"
+S_UploadBattleVideo_0x550"
+C_GetEliteVideoList_0x551"G
+S_GetEliteVideoList_0x551*
+share_videos (2.ProtoShareVideoInfo";
+C_ViewBattleVideo_0x552
+
+video_type (
+uuid (	"E
+S_ViewBattleVideo_0x552*
+share_videos (2.ProtoShareVideoInfo"
+C_ViewSelfVideo_0x553"
+S_ViewSelfVideo_0x553"
+S_NewEliteVideoNotify_0x559B)
+game.protocol.protobufBProtocolVideoH

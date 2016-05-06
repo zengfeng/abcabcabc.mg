@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3825680403
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fcdfdbd3680755ce54b02b1fcb8a915
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a82c3b745aa9218c66c19eb693abd9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/data/avataraction/spot/spot_03_chanbing_0_3/idel_level1.asset
+- Assets/Game/Res/data/avatar/spot/spot_03_chanbing_0_3.asset
+- Assets/Game/Res/unit_texture/spot/spot_03_chanbing_0_3/idel_level1/spot_chanbing_3_0.png
+- Assets/Game/Res/data/spriteanimation/spot/spot_03_chanbing_0_3/idel_level1_0.asset
+- Assets/Game/Res/unit_prefab/spot/spot_03_chanbing_0_3.prefab
+Dependencies: []

@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 557457344
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d7b7d5b56dd697af5fd1708d8493069
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e4820a880a1034874bd1064994e80ed9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/data/avataraction/casern/c_03_haidao_1/idel_level1.asset
+- Assets/Game/Res/unit_prefab/casern/c_03_haidao_1.prefab
+- Assets/Game/Res/data/avatar/casern/c_03_haidao_1.asset
+- Assets/Game/Res/data/spriteanimation/casern/c_03_haidao_1/idel_level1_0.asset
+Dependencies: []

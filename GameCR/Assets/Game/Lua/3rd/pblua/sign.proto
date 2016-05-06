@@ -1,0 +1,22 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolSign";
+option optimize_for = SPEED;
+
+message C_GetSignInfo_0x1060 {
+}
+
+message S_GetSignInfo_0x1060 {
+	required ProtoSignInfo sign_info = 1;
+}
+
+message C_SignIn_0x1061 {
+	required int32 sign_day = 1;
+}
+
+message S_SignIn_0x1061 {
+	required ProtoSignInfo sign_info = 1;
+} 
+
+message S_EnableSignNotify_0x1062 {
+}

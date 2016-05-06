@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 1731571667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1900285e4e3b4cd8fe2a21964f6fb5ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7e2a146412b733e4f5d8b73f67a468c2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4dbfb4a569c3e48ada92b22e02666423, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/unit_texture/effect/e_buffstate_solider_attack_up/03.png
+- Assets/Game/Res/unit_texture/effect/e_buffstate_solider_attack_up/02.png
+- Assets/Game/Res/data/avatar/effect/e_buffstate_solider_attack_up.asset
+- Assets/Game/Res/data/avataraction/effect/e_buffstate_solider_attack_up.asset
+- Assets/Game/Res/data/spriteanimation/effect/e_buffstate_solider_attack_up.asset
+- Assets/Game/Res/unit_texture/effect/e_buffstate_solider_attack_up/01.png
+- Assets/Game/Res/unit_prefab/effect/e_buffstate_solider_attack_up.prefab
+Dependencies: []

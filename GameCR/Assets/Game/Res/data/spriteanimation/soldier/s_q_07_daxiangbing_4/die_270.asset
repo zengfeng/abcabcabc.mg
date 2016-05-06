@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: die_270
+  m_EditorClassIdentifier: 
+  actionName: die
+  angle: 270
+  flip: 1
+  loop: 1
+  frames:
+  - {fileID: 21300000, guid: 56cf10fc72594204f93b5313d1d63155, type: 3}
+  - {fileID: 21300000, guid: 0e0cd576f809d204c9de0709e5bb7637, type: 3}
+  - {fileID: 21300000, guid: dacb06c775615c2489cea6b5c7f4467c, type: 3}
+  - {fileID: 21300000, guid: a3ef58162aed32344a89ee19220c5ba6, type: 3}
+  - {fileID: 21300000, guid: 3c00f02f01dd9ef4b965bac99a2c7eeb, type: 3}

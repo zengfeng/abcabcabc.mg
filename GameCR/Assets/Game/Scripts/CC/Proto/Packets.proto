@@ -1,0 +1,175 @@
+
+option optimize_for = LITE_RUNTIME;
+option cc_generic_services = false;
+
+
+// PK玩家信息
+message ProtoPlayerInfo {
+	// 玩家ID
+	required int32 role_id = 1;
+	// 阵营ID
+	required int32 team_id = 2;
+	// 队伍组ID
+	required int32 team_group = 3;
+	// 玩家战前数据
+	required WDTeam roledata = 4;
+}
+
+//--------------------------------
+// 战前数据
+//--------------------------------
+
+// 阵营数据
+message WDTeam {
+	// 士兵数据
+	optional WDSolider solider = 1;
+	// 英雄数据列表
+	repeated WDHero heros = 2;
+
+}
+
+// 士兵数据
+message WDSolider {
+	// 等级
+	optional int32 level = 1;
+	// 属性列表
+	repeated WDProp props = 2;
+}
+
+
+// 英雄数据
+message WDHero {
+	// 英雄ID
+	required int32 hero_id = 1;
+	// 兵营位置
+	required int32 casern_index = 2;
+	// avatarId
+	required int32 avatar_id = 3;
+	// 技能A--ID
+	optional int32 skill_id = 4;
+	// 技能A--等级
+	optional int32 skill_level= 5;
+	// 技能B--ID
+	optional int32 skill2_id = 6;
+	// 技能B--等级
+	optional int32 skill2_level= 7;
+	// 属性列表
+	repeated WDProp props = 8;
+}
+
+
+// 属性
+message WDProp {
+	// 属性ID
+	required int32 id = 1;
+	// 属性值
+	required float value = 2;
+}
+
+
+// 单位属性列表
+message WDUnitProp {
+	// 单位ID
+	required int32 unit_id = 1;
+	// 属性列表
+	repeated WDProp props = 2;
+}
+
+
+//--------------------------------
+// 准备
+//--------------------------------
+
+// 发送--战斗准备
+message C_ArenaBattleReady_0x1203 {
+	// 房间ID
+	required int32 battle_room_id = 1;
+	// 玩家战前数据
+	optional WDTeam roledata = 2;
+}
+
+// 反馈--战斗准备
+message S_ArenaBattleReady_0x1203 {
+	// 准备好的玩家
+	required int32 role_id = 1;
+}
+
+// 广播--所有玩家战斗准备完成
+message S_ArenaBattleStart_0x1204 {
+	// 所有玩家阵型信息
+	repeated ProtoPlayerInfo matcherArrangeInfo= 1;
+}
+
+//--------------------------------
+// 退出
+//--------------------------------
+
+// 发送--战斗退出
+message C_ArenaBattleLeave_0x1205 {
+	// 房间ID
+	required int32 battle_room_id = 1;
+}
+
+// 反馈--战斗退出
+message S_ArenaBattleLeave_0x1205 {
+	// 玩家ID
+	required int32 role_id = 1;
+}
+
+
+//--------------------------------
+// 战斗同步
+//--------------------------------
+
+//发兵
+message C_SyncSendArm_0x1208 {
+	// 房间ID
+	required int32 battle_room_id = 1;
+	required int32 from = 2;
+	required int32 to = 3;
+	required int32 count = 4;
+	required int32 uid_begin = 5;
+}
+
+message S_SyncSendArm_0x1208 {
+	required int32 from = 1;
+	required int32 to = 2;
+	required int32 count = 3;
+	required int32 uid_begin = 4;
+}
+
+//属性
+message C_SyncProp_0x1209 {
+	// 房间ID
+	required int32 battle_room_id = 1;
+	// 单位属性列表
+	repeated WDUnitProp unit_props = 2;
+}
+
+message S_SyncProp_0x1209 {
+	// 单位属性列表
+	repeated WDUnitProp unit_props = 1;
+}
+
+//放技能
+message C_SyncSkill_0x1210 {
+	// 房间ID
+	required int32 battle_room_id = 1;
+	// 技能ID
+	required int32 skill_id = 2;
+	// 单位ID
+	repeated int32 unit_id = 3;
+	// 位置 x | z << 16
+	optional int32 position = 4;
+}
+
+message S_SyncSkill_0x1210 {
+	// 玩家ID
+	required int32 role_id = 1;
+	// 技能ID
+	required int32 skill_id = 2;
+	// 单位ID列表
+	repeated int32 unit_id = 3;
+	// 位置 x | z << 16
+	optional int32 position = 4;
+}

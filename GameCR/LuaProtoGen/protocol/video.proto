@@ -1,0 +1,43 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolVideo";
+option optimize_for = SPEED;
+
+message ProtoShareVideoInfo {
+	required int32 share_roleId = 1;
+	required ProtoBattleVideoInfo video = 2;
+}
+
+message C_UploadBattleVideo_0x550 {
+	required int32 upload_type = 1;  // 1.公会分享   2.精选上传 
+	required ProtoShareVideoInfo share_video = 2;
+}
+
+message S_UploadBattleVideo_0x550 {
+}
+
+message C_GetEliteVideoList_0x551 {
+}
+
+message S_GetEliteVideoList_0x551 {
+	repeated ProtoShareVideoInfo share_videos = 1;
+}
+
+message C_ViewBattleVideo_0x552 {
+	required int32 video_type = 1;  // 1.公会视频   2.精选视频
+	required string uuid = 2;
+}
+
+message S_ViewBattleVideo_0x552 {
+	required ProtoShareVideoInfo share_videos = 1;
+}
+
+message C_ViewSelfVideo_0x553 {
+}
+
+message S_ViewSelfVideo_0x553 {
+
+}
+
+message S_NewEliteVideoNotify_0x559 {
+}

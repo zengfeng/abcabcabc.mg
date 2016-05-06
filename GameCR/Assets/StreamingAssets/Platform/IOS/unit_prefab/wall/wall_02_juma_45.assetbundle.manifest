@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 892895971
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c788f1c2a6171ffcc799ff8360e8c487
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37806f2803cad4d53a44502ce5c39dac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a304ba3254d14cf1afff06178e274a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/data/spriteanimation/wall/wall_02_juma_45/idle_135.asset
+- Assets/Game/Res/unit_prefab/wall/wall_02_juma_45.prefab
+- Assets/Game/Res/data/spriteanimation/wall/wall_02_juma_45/idle_0.asset
+- Assets/Game/Res/unit_texture/wall/wall_02_juma_45/idle/90/wall_02_juma_90.png
+- Assets/Game/Res/data/avataraction/wall/wall_02_juma_45/idle.asset
+- Assets/Game/Res/unit_texture/wall/wall_02_juma_45/idle/45/wall_02_juma_45.png
+- Assets/Game/Res/data/spriteanimation/wall/wall_02_juma_45/idle_45.asset
+- Assets/Game/Res/data/spriteanimation/wall/wall_02_juma_45/idle_90.asset
+- Assets/Game/Res/unit_texture/wall/wall_02_juma_45/idle/0/wall_02_juma_0.png
+- Assets/Game/Res/data/avatar/wall/wall_02_juma_45.asset
+- Assets/Game/Res/unit_texture/wall/wall_02_juma_45/idle/135/wall_02_juma_135.png
+Dependencies: []

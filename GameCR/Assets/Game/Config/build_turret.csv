@@ -1,0 +1,5 @@
+编号;名称;炮弹Avatar;攻击范围;攻击速度;攻击伤害
+id;name;turretAvatar;attackRadius;attackSpeed;attackDamage
+201;箭塔1级;40101;10;0.67;1
+202;箭塔2级;40101;11;0.5;2
+203;箭塔3级;40101;12;0.4;3

@@ -1,0 +1,21 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolCard";
+option optimize_for = SPEED;
+
+message C_CardLevelUp_0x201 {
+	required int32 card_id = 1;
+}
+
+message S_CardLevelUp_0x201 {
+	required ProtoCardInfo card_info = 1;
+}
+
+message C_CardBattleStatusChange_0x202 {
+	required int32 battle_soldier = 1;
+	repeated int32 battle_card_ids = 2;
+}
+
+message S_CardBattleStatusChange_0x202 {
+	required ProtoRoleBattleInfo battle_info = 1;
+}

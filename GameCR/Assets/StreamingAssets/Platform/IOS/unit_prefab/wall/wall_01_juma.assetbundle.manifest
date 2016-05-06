@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 102155555
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af0f23acc109be1e5c0043f54a2aa680
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a82c3b745aa9218c66c19eb693abd9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_135.asset
+- Assets/Game/Res/data/avataraction/wall/wall_01_juma/idle.asset
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_315.asset
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_225.asset
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/90/wall_juma_90.png
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/225/wall_juma_45.png
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/135/wall_juma_135.png
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/180/wall_juma_0.png
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/0/wall_juma_0.png
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_0.asset
+- Assets/Game/Res/data/avatar/wall/wall_01_juma.asset
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/270/wall_juma_90.png
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_180.asset
+- Assets/Game/Res/unit_prefab/wall/wall_01_juma.prefab
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_270.asset
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_90.asset
+- Assets/Game/Res/data/spriteanimation/wall/wall_01_juma/idle_45.asset
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/45/wall_juma_45.png
+- Assets/Game/Res/unit_texture/wall/wall_01_juma/idle/315/wall_juma_135.png
+Dependencies: []

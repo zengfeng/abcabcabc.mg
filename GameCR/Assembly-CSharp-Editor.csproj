@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EE9C1483-2F86-BF51-3313-F347F2BCBB24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\Instant Screenshot\ScreenshotTaker.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\Achor.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\AnimatorGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\AutoTextureToSprite.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BatchSettingFbxAnimationClip.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BatchSettingMaterialShader.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BatchSettingTexture.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BatchSettingTexturePackingTag.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BuildAssets.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\BuildProject.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\CaptureScreenshot.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\CenterSwitcher.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\CreateAssets.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\ImageAnimationGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\PBGen.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\ScalePic\ScalePicWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\SceneViewEditor.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\SceneViewSettingData.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\SpriteAnimationGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXList.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXObject.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXParser.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXProject.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\Plist\Plist.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCConfigurationList.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCMod.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCPlist.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCProject.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Editor\XUPorter\XCodePostProcess.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Libs\iTweenPath\Editor\iTweenPathEditor.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Runtime\UI\Editor\ExtentButtonEditor.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Runtime\UI\Editor\PrefabTextEditor.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Runtime\UI\Editor\RenderMenu.cs" />
+     <Compile Include="Assets\Game\Scripts\CC\Runtime\UI\Editor\TextMenu.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_Config.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_Effect.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_Lua.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_Map.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_Platform.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_UI.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\BuildAssetBundle_UnitPrefab.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\CSVGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\CreateAssets.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_BuildConfigWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_Csv2xlsx.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_EditPath.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_File.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_HeroLibraryWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_Instance.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_LibraryWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_LibraryWindow_Instance.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_MapIcon.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_MapWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_Scene.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_SelectWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_SoliderLibraryWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_StageConfigWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_StageConfigWindow_Create.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_StageConfigWindow_Modify.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\EditorWars\WarEditor_StageWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FilesGeneratorForResources.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FilesGeneratorForStreamingAssets.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FindReferencesInAllPrefab_Font.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FindReferencesInAllScene_Image.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FindReferencesInAllScene_Prefab.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FindReferencesInAllScene_Texture.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\FindScene.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\GameConstJsonGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\SceneSwitch.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\SpriteAvatarGenerator.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\SpriteAvatarGenerator_Effect.cs" />
+     <Compile Include="Assets\Game\Scripts\Editor\SpriteFramesGenerator.cs" />
+     <Compile Include="Assets\ulualib\Editor\BindLua.cs" />
+     <Compile Include="Assets\ulualib\Editor\Packager.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_System_Delegate.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_System_Enum.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_System_Object.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_System_String.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_System_Type.cs" />
+     <Compile Include="Assets\ulualib\Editor\Wrap\ToLua_UnityEngine_Object.cs" />
+     <None Include="Assets\StreamingAssets\users\2010\record\20.txt" />
+     <None Include="Assets\Game\Fonts\TimeleftFont\TimeleftFont.fnt" />
+     <None Include="Assets\Game\Fonts\TimeFont\TimeFont.fnt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\25.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\key.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\Gray.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\info.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\13.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween50.xml" />
+     <None Include="Assets\StreamingAssets\users\2010\record\23.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\19.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\Easy Save 2\changelog.txt" />
+     <None Include="Assets\ulualib\Scripts\Utility\SharpZLib\readme.txt" />
+     <None Include="Assets\art\ui\Readme.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\17.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\10.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\24.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\22.txt" />
+     <None Include="Assets\ulualib\uLua\README.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\Easy Save 2\readme.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\11.txt" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\DiffuseRim.shader" />
+     <None Include="Assets\Game\Resources\shaders\ui\ImgLight.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\28.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\26.txt" />
+     <None Include="Assets\Plugins\ConsolePro\Readme.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\GrayOffsetColor.shader" />
+     <None Include="Assets\StreamingAssets\users\4264\record\14.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\15.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\JsonDotNet\ReadMe.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Game\Resources\shaders\Terrain_3Texture_1Shade.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\21.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\MobileBlur.shader" />
+     <None Include="Assets\Game\Scripts\CC\Libs\protobuf-net\Web\TODO.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween43.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\info.txt" />
+     <None Include="Assets\Game\Lua\System\readme.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\9.txt" />
+     <None Include="Assets\Plugins\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween46.xml" />
+     <None Include="Assets\StreamingAssets\users\2010\record\27.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\key.txt" />
+     <None Include="Assets\Game\Fonts\DamageFont\DamageFont.fnt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\16.txt" />
+     <None Include="Assets\Plugins\ImageMagick\Magick.NET-Q8-x64.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\18.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\12.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Debuger">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/Debuger.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="ConsolePro.Editor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ConsolePro/Editor/ConsolePro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2Editor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/Editor/ES2Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Magick.NET-Q8-x64">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ImageMagick/Magick.NET-Q8-x64.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ImageMagick/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BE3B1EE9-14F5-43C3-CAAB-83698AB8B2A1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{C674D89C-0263-AC12-B3D8-6927C97AD647}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{7B5FDCBD-83DB-B149-A81B-AF5FEEA2CBCA}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

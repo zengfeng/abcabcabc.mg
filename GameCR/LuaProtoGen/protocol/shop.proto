@@ -1,0 +1,19 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolShop";
+option optimize_for = SPEED;
+
+message C_BuyShopItem_0x400 {
+	required int32 pos = 1;
+}
+
+message S_BuyShopItem_0x400 {
+	required ProtoShopItemInfo sell_item = 1;
+}
+
+message C_RefreshShop_0x401 {
+}
+
+message S_RefreshShop_0x401 {
+	required ProtoShopInfo shop = 1;
+}

@@ -1,0 +1,24 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolTask";
+option optimize_for = SPEED;
+
+message C_TaskList_0x500 {
+}
+
+message S_TaskList_0x500 {
+	repeated ProtoTaskInfo task_info = 1;
+}
+
+message S_TaskInfoNotify_0x501 {
+	required ProtoTaskInfo task_info = 1;
+}
+
+message C_GetTaskAward_0x502 {
+	required int32 task_id = 1;
+}
+
+message S_GetTaskAward_0x502 {
+	required int32 task_id = 1;
+	optional ProtoTaskInfo task_info = 2;
+}

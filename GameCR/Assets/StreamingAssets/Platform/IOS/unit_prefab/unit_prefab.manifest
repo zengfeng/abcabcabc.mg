@@ -1,0 +1,393 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: casern/c_01_zhangpeng_0_1.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: casern/c_01_zhangpeng_0_2.assetbundle
+      Dependencies: {}
+    Info_2:
+      Name: casern/c_01_zhangpeng_0_3.assetbundle
+      Dependencies: {}
+    Info_3:
+      Name: casern/c_01_zhangpeng_1_1.assetbundle
+      Dependencies: {}
+    Info_4:
+      Name: casern/c_01_zhangpeng_1_2.assetbundle
+      Dependencies: {}
+    Info_5:
+      Name: casern/c_01_zhangpeng_1_3.assetbundle
+      Dependencies: {}
+    Info_6:
+      Name: casern/c_01_zhangpeng_2_1.assetbundle
+      Dependencies: {}
+    Info_7:
+      Name: casern/c_01_zhangpeng_2_2.assetbundle
+      Dependencies: {}
+    Info_8:
+      Name: casern/c_01_zhangpeng_2_3.assetbundle
+      Dependencies: {}
+    Info_9:
+      Name: casern/c_01_zhangpeng_3_1.assetbundle
+      Dependencies: {}
+    Info_10:
+      Name: casern/c_01_zhangpeng_3_2.assetbundle
+      Dependencies: {}
+    Info_11:
+      Name: casern/c_01_zhangpeng_3_3.assetbundle
+      Dependencies: {}
+    Info_12:
+      Name: casern/c_01_zhangpeng_4_1.assetbundle
+      Dependencies: {}
+    Info_13:
+      Name: casern/c_01_zhangpeng_4_2.assetbundle
+      Dependencies: {}
+    Info_14:
+      Name: casern/c_01_zhangpeng_4_3.assetbundle
+      Dependencies: {}
+    Info_15:
+      Name: casern/c_02_liangcang_0.assetbundle
+      Dependencies: {}
+    Info_16:
+      Name: casern/c_02_liangcang_1.assetbundle
+      Dependencies: {}
+    Info_17:
+      Name: casern/c_02_liangcang_2.assetbundle
+      Dependencies: {}
+    Info_18:
+      Name: casern/c_02_liangcang_3.assetbundle
+      Dependencies: {}
+    Info_19:
+      Name: casern/c_02_liangcang_4.assetbundle
+      Dependencies: {}
+    Info_20:
+      Name: casern/c_03_haidao_0.assetbundle
+      Dependencies: {}
+    Info_21:
+      Name: casern/c_03_haidao_1.assetbundle
+      Dependencies: {}
+    Info_22:
+      Name: casern/c_03_haidao_2.assetbundle
+      Dependencies: {}
+    Info_23:
+      Name: effect/e_add_soilder.assetbundle
+      Dependencies: {}
+    Info_24:
+      Name: effect/e_buff_add_soilder.assetbundle
+      Dependencies: {}
+    Info_25:
+      Name: effect/e_buff_shield.assetbundle
+      Dependencies: {}
+    Info_26:
+      Name: effect/e_buffstate_movespeed_up_1.assetbundle
+      Dependencies: {}
+    Info_27:
+      Name: effect/e_buffstate_movespeed_up_2.assetbundle
+      Dependencies: {}
+    Info_28:
+      Name: effect/e_buffstate_movespeed_up_3.assetbundle
+      Dependencies: {}
+    Info_29:
+      Name: effect/e_buffstate_solider_attack_down.assetbundle
+      Dependencies: {}
+    Info_30:
+      Name: effect/e_buffstate_solider_attack_up.assetbundle
+      Dependencies: {}
+    Info_31:
+      Name: effect/e_buffstate_solider_killhero_down.assetbundle
+      Dependencies: {}
+    Info_32:
+      Name: effect/e_buffstate_solider_killhero_up.assetbundle
+      Dependencies: {}
+    Info_33:
+      Name: effect/e_buffstate_solider_movespeed_down.assetbundle
+      Dependencies: {}
+    Info_34:
+      Name: effect/e_buffstate_solider_movespeed_up.assetbundle
+      Dependencies: {}
+    Info_35:
+      Name: effect/e_dust_soldier_run.assetbundle
+      Dependencies: {}
+    Info_36:
+      Name: effect/e_lightning.assetbundle
+      Dependencies: {}
+    Info_37:
+      Name: grain/grain_01_liangcang_0.assetbundle
+      Dependencies: {}
+    Info_38:
+      Name: grain/grain_01_liangcang_1.assetbundle
+      Dependencies: {}
+    Info_39:
+      Name: grain/grain_01_liangcang_2.assetbundle
+      Dependencies: {}
+    Info_40:
+      Name: grain/grain_01_liangcang_3.assetbundle
+      Dependencies: {}
+    Info_41:
+      Name: grain/grain_01_liangcang_4.assetbundle
+      Dependencies: {}
+    Info_42:
+      Name: hero/caocao.assetbundle
+      Dependencies: {}
+    Info_43:
+      Name: soldier/s_f_06_kuofubing_1.assetbundle
+      Dependencies: {}
+    Info_44:
+      Name: soldier/s_f_06_kuofubing_2.assetbundle
+      Dependencies: {}
+    Info_45:
+      Name: soldier/s_f_06_kuofubing_3.assetbundle
+      Dependencies: {}
+    Info_46:
+      Name: soldier/s_f_06_kuofubing_4.assetbundle
+      Dependencies: {}
+    Info_47:
+      Name: soldier/s_g_01_changqiangbing_1.assetbundle
+      Dependencies: {}
+    Info_48:
+      Name: soldier/s_g_01_changqiangbing_2.assetbundle
+      Dependencies: {}
+    Info_49:
+      Name: soldier/s_g_01_changqiangbing_3.assetbundle
+      Dependencies: {}
+    Info_50:
+      Name: soldier/s_g_01_changqiangbing_4.assetbundle
+      Dependencies: {}
+    Info_51:
+      Name: soldier/s_g_02_lianchuibing_1.assetbundle
+      Dependencies: {}
+    Info_52:
+      Name: soldier/s_g_02_lianchuibing_2.assetbundle
+      Dependencies: {}
+    Info_53:
+      Name: soldier/s_g_02_lianchuibing_3.assetbundle
+      Dependencies: {}
+    Info_54:
+      Name: soldier/s_g_02_lianchuibing_4.assetbundle
+      Dependencies: {}
+    Info_55:
+      Name: soldier/s_g_03_nvzei_1.assetbundle
+      Dependencies: {}
+    Info_56:
+      Name: soldier/s_g_03_nvzei_2.assetbundle
+      Dependencies: {}
+    Info_57:
+      Name: soldier/s_g_03_nvzei_3.assetbundle
+      Dependencies: {}
+    Info_58:
+      Name: soldier/s_g_03_nvzei_4.assetbundle
+      Dependencies: {}
+    Info_59:
+      Name: soldier/s_q_01_xiaozhubing_1.assetbundle
+      Dependencies: {}
+    Info_60:
+      Name: soldier/s_q_01_xiaozhubing_2.assetbundle
+      Dependencies: {}
+    Info_61:
+      Name: soldier/s_q_01_xiaozhubing_3.assetbundle
+      Dependencies: {}
+    Info_62:
+      Name: soldier/s_q_01_xiaozhubing_4.assetbundle
+      Dependencies: {}
+    Info_63:
+      Name: soldier/s_q_05_yezhubing_1.assetbundle
+      Dependencies: {}
+    Info_64:
+      Name: soldier/s_q_05_yezhubing_2.assetbundle
+      Dependencies: {}
+    Info_65:
+      Name: soldier/s_q_05_yezhubing_3.assetbundle
+      Dependencies: {}
+    Info_66:
+      Name: soldier/s_q_05_yezhubing_4.assetbundle
+      Dependencies: {}
+    Info_67:
+      Name: spot/spot_01_zhangpeng_0_1.assetbundle
+      Dependencies: {}
+    Info_68:
+      Name: spot/spot_01_zhangpeng_0_2.assetbundle
+      Dependencies: {}
+    Info_69:
+      Name: spot/spot_01_zhangpeng_0_3.assetbundle
+      Dependencies: {}
+    Info_70:
+      Name: spot/spot_01_zhangpeng_1_1.assetbundle
+      Dependencies: {}
+    Info_71:
+      Name: spot/spot_01_zhangpeng_1_2.assetbundle
+      Dependencies: {}
+    Info_72:
+      Name: spot/spot_01_zhangpeng_1_3.assetbundle
+      Dependencies: {}
+    Info_73:
+      Name: spot/spot_01_zhangpeng_2_1.assetbundle
+      Dependencies: {}
+    Info_74:
+      Name: spot/spot_01_zhangpeng_2_2.assetbundle
+      Dependencies: {}
+    Info_75:
+      Name: spot/spot_01_zhangpeng_2_3.assetbundle
+      Dependencies: {}
+    Info_76:
+      Name: spot/spot_01_zhangpeng_3_1.assetbundle
+      Dependencies: {}
+    Info_77:
+      Name: spot/spot_01_zhangpeng_3_2.assetbundle
+      Dependencies: {}
+    Info_78:
+      Name: spot/spot_01_zhangpeng_3_3.assetbundle
+      Dependencies: {}
+    Info_79:
+      Name: spot/spot_01_zhangpeng_4_1.assetbundle
+      Dependencies: {}
+    Info_80:
+      Name: spot/spot_01_zhangpeng_4_2.assetbundle
+      Dependencies: {}
+    Info_81:
+      Name: spot/spot_01_zhangpeng_4_3.assetbundle
+      Dependencies: {}
+    Info_82:
+      Name: spot/spot_02_sudu_0_1.assetbundle
+      Dependencies: {}
+    Info_83:
+      Name: spot/spot_02_sudu_0_2.assetbundle
+      Dependencies: {}
+    Info_84:
+      Name: spot/spot_02_sudu_0_3.assetbundle
+      Dependencies: {}
+    Info_85:
+      Name: spot/spot_02_sudu_1_1.assetbundle
+      Dependencies: {}
+    Info_86:
+      Name: spot/spot_02_sudu_1_2.assetbundle
+      Dependencies: {}
+    Info_87:
+      Name: spot/spot_02_sudu_1_3.assetbundle
+      Dependencies: {}
+    Info_88:
+      Name: spot/spot_02_sudu_2_1.assetbundle
+      Dependencies: {}
+    Info_89:
+      Name: spot/spot_02_sudu_2_2.assetbundle
+      Dependencies: {}
+    Info_90:
+      Name: spot/spot_02_sudu_2_3.assetbundle
+      Dependencies: {}
+    Info_91:
+      Name: spot/spot_02_sudu_3_1.assetbundle
+      Dependencies: {}
+    Info_92:
+      Name: spot/spot_02_sudu_3_2.assetbundle
+      Dependencies: {}
+    Info_93:
+      Name: spot/spot_02_sudu_3_3.assetbundle
+      Dependencies: {}
+    Info_94:
+      Name: spot/spot_02_sudu_4_1.assetbundle
+      Dependencies: {}
+    Info_95:
+      Name: spot/spot_02_sudu_4_2.assetbundle
+      Dependencies: {}
+    Info_96:
+      Name: spot/spot_02_sudu_4_3.assetbundle
+      Dependencies: {}
+    Info_97:
+      Name: spot/spot_03_chanbing_0_1.assetbundle
+      Dependencies: {}
+    Info_98:
+      Name: spot/spot_03_chanbing_0_2.assetbundle
+      Dependencies: {}
+    Info_99:
+      Name: spot/spot_03_chanbing_0_3.assetbundle
+      Dependencies: {}
+    Info_100:
+      Name: spot/spot_03_chanbing_1_1.assetbundle
+      Dependencies: {}
+    Info_101:
+      Name: spot/spot_03_chanbing_1_2.assetbundle
+      Dependencies: {}
+    Info_102:
+      Name: spot/spot_03_chanbing_1_3.assetbundle
+      Dependencies: {}
+    Info_103:
+      Name: spot/spot_03_chanbing_2_1.assetbundle
+      Dependencies: {}
+    Info_104:
+      Name: spot/spot_03_chanbing_2_2.assetbundle
+      Dependencies: {}
+    Info_105:
+      Name: spot/spot_03_chanbing_2_3.assetbundle
+      Dependencies: {}
+    Info_106:
+      Name: spot/spot_03_chanbing_3_1.assetbundle
+      Dependencies: {}
+    Info_107:
+      Name: spot/spot_03_chanbing_3_2.assetbundle
+      Dependencies: {}
+    Info_108:
+      Name: spot/spot_03_chanbing_3_3.assetbundle
+      Dependencies: {}
+    Info_109:
+      Name: spot/spot_03_chanbing_4_1.assetbundle
+      Dependencies: {}
+    Info_110:
+      Name: spot/spot_03_chanbing_4_2.assetbundle
+      Dependencies: {}
+    Info_111:
+      Name: spot/spot_03_chanbing_4_3.assetbundle
+      Dependencies: {}
+    Info_112:
+      Name: turret/t_01_jianta_0_1.assetbundle
+      Dependencies: {}
+    Info_113:
+      Name: turret/t_01_jianta_0_2.assetbundle
+      Dependencies: {}
+    Info_114:
+      Name: turret/t_01_jianta_0_3.assetbundle
+      Dependencies: {}
+    Info_115:
+      Name: turret/t_01_jianta_1_1.assetbundle
+      Dependencies: {}
+    Info_116:
+      Name: turret/t_01_jianta_1_2.assetbundle
+      Dependencies: {}
+    Info_117:
+      Name: turret/t_01_jianta_1_3.assetbundle
+      Dependencies: {}
+    Info_118:
+      Name: turret/t_01_jianta_2_1.assetbundle
+      Dependencies: {}
+    Info_119:
+      Name: turret/t_01_jianta_2_2.assetbundle
+      Dependencies: {}
+    Info_120:
+      Name: turret/t_01_jianta_2_3.assetbundle
+      Dependencies: {}
+    Info_121:
+      Name: turret/t_01_jianta_3_1.assetbundle
+      Dependencies: {}
+    Info_122:
+      Name: turret/t_01_jianta_3_2.assetbundle
+      Dependencies: {}
+    Info_123:
+      Name: turret/t_01_jianta_3_3.assetbundle
+      Dependencies: {}
+    Info_124:
+      Name: turret/t_01_jianta_4_1.assetbundle
+      Dependencies: {}
+    Info_125:
+      Name: turret/t_01_jianta_4_2.assetbundle
+      Dependencies: {}
+    Info_126:
+      Name: turret/t_01_jianta_4_3.assetbundle
+      Dependencies: {}
+    Info_127:
+      Name: wall/wall_01_juma.assetbundle
+      Dependencies: {}
+    Info_128:
+      Name: wall/wall_02_juma_30.assetbundle
+      Dependencies: {}
+    Info_129:
+      Name: wall/wall_02_juma_45.assetbundle
+      Dependencies: {}

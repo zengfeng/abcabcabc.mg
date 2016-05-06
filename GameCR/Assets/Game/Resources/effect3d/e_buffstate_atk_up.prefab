@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &135476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 415922}
+  - 114: {fileID: 11406206}
+  m_Layer: 0
+  m_Name: e_buffstate_atk_up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &155334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419790}
+  - 212: {fileID: 21219810}
+  m_Layer: 0
+  m_Name: sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 419790}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &419790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155334}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: 0, y: -0, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 415922}
+  m_RootOrder: 0
+--- !u!114 &11406206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca278b2b2a494b608fd69aa95763aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 21219810}
+  legion_0:
+  - {fileID: 21300000, guid: 2aafb3303b2db46999964c3b62d268d4, type: 3}
+  - {fileID: 21300000, guid: 082de27ce19db4f98b6d8320789f51ef, type: 3}
+  - {fileID: 21300000, guid: 39ddc30d14d31414095546801e5c722e, type: 3}
+  legion_1:
+  - {fileID: 21300000, guid: a2ef34c2cb58440c7835170064f8857f, type: 3}
+  - {fileID: 21300000, guid: 03be2b9c48b8b4c2e99943df953ff2d2, type: 3}
+  - {fileID: 21300000, guid: 28e4381f7f97042638dc3dae6cf260a7, type: 3}
+  legion_2:
+  - {fileID: 21300000, guid: 531899afb7f55449785365b1650e4201, type: 3}
+  - {fileID: 21300000, guid: 36f18e3f4066f434fb2e73704e3bd500, type: 3}
+  - {fileID: 21300000, guid: 8234e48bc6ed14aa1b9897c9df0c3242, type: 3}
+  legion_3:
+  - {fileID: 21300000, guid: 1ec242f59dc7c407598036978f863101, type: 3}
+  - {fileID: 21300000, guid: fe496625ffe684a75a9bcf7bebbd391b, type: 3}
+  - {fileID: 21300000, guid: 0c46cb0a500d94b96bacfc10dd159e20, type: 3}
+  legion_4:
+  - {fileID: 21300000, guid: 29250f7803be24c3b9e0673a65aadb3d, type: 3}
+  - {fileID: 21300000, guid: 38f12e970f6c3454cb4c42c5804a97f3, type: 3}
+  - {fileID: 21300000, guid: 58b5832ede74d45ee9d87c7e82844956, type: 3}
+--- !u!212 &21219810
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155334}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1621823959
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: a2ef34c2cb58440c7835170064f8857f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 135476}
+  m_IsPrefabParent: 1

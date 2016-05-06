@@ -1,0 +1,4108 @@
+{
+  "queue": [
+    {
+      "t": 0.0,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 10001099,
+          "uidSpecified": true,
+          "skill_id": 999,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 100001,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 9999,
+              "effect_idSpecified": true,
+              "skill_value": 100.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                2
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 52,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                2
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 103,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                2
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 0.0,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 2,
+        "skillUid": 22131101,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 0.0,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 1,
+        "skillUid": 12030224,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 0.680373967,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 2,
+        "skillUid": 22221201,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 0.680373967,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 1,
+        "skillUid": 12030533,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 1.37825012,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 2,
+        "skillUid": 22281301,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 1.37825012,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 1,
+        "skillUid": 12030325,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 2.075149,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 2,
+        "skillUid": 22341401,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 2.075149,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 1,
+        "skillUid": 12030432,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 4.145065,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 22131101,
+          "uidSpecified": true,
+          "skill_id": 101001,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 220301,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 1011001,
+              "effect_idSpecified": true,
+              "skill_value": 2.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                5
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 1021001,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                5
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 1031001,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                5
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 4.710532,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 1,
+        "count": 18,
+        "beginUid": 10201000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 5.57560968,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 7,
+        "count": 14,
+        "beginUid": 10207036
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 6.5724,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 8,
+        "count": 6,
+        "beginUid": 10208064
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 7.609555,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 3,
+        "count": 1,
+        "beginUid": 10203076
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 8.810063,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 6,
+        "count": 2,
+        "beginUid": 10206078
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 9.374166,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 4,
+        "count": 70,
+        "beginUid": 20504000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 11.3024168,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 1,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 12.5675955,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 7,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 13.9000082,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 4,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 14.2331419,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 8,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 14.5655212,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 15.12991,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 4,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 18.75196,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 4,
+        "toUid": 9,
+        "count": 30,
+        "beginUid": 20409000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 18.75196,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 9,
+        "count": 40,
+        "beginUid": 20509140
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 23.11385,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 22221201,
+          "uidSpecified": true,
+          "skill_id": 191001,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 220302,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 1911001,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                4
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 1931001,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                4
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 23.3479214,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 9,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 23.6801586,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 4,
+        "level": 3,
+        "time": 5.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 24.0116386,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 6,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 24.5677471,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 9,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 26.5005989,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 12030533,
+          "uidSpecified": true,
+          "skill_id": 33,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 120305,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 331,
+              "effect_idSpecified": true,
+              "skill_value": 22.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                2
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 27.0005989,
+      "actionType": 5,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": {
+        "legionId": 1,
+        "skillUid": 12030119,
+        "speed": 1.0
+      },
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 27.9984989,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 9,
+        "toUid": 6,
+        "count": 46,
+        "beginUid": 20906000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 28.09566,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 12030224,
+          "uidSpecified": true,
+          "skill_id": 24,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 120302,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 241,
+              "effect_idSpecified": true,
+              "skill_value": 22.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                4
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 29.5594959,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 4,
+        "count": 38,
+        "beginUid": 10204082
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 31.16245,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 12030325,
+          "uidSpecified": true,
+          "skill_id": 25,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 120303,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 251,
+              "effect_idSpecified": true,
+              "skill_value": 4.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                3
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 252,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                3
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 253,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                3
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                3
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 32.6914,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 12030119,
+          "uidSpecified": true,
+          "skill_id": 19,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 120301,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 191,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                8
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 193,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                8
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                8
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 34.0562973,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 4,
+        "count": 15,
+        "beginUid": 10204158
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 35.3710938,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 12030432,
+          "uidSpecified": true,
+          "skill_id": 32,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 120304,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 321,
+              "effect_idSpecified": true,
+              "skill_value": 27.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                20906018,
+                20906019,
+                20906020,
+                20906021,
+                20906028,
+                20906030,
+                20906031,
+                20906026,
+                20906025,
+                20906024,
+                20906015,
+                20906014,
+                20906013,
+                20906012,
+                20906022,
+                20906016,
+                20906008,
+                20906007,
+                20906006,
+                5
+              ],
+              "x": 16.2391777,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": -3.93524933,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 35.6522255,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 22281301,
+          "uidSpecified": true,
+          "skill_id": 251001,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 220303,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 2511001,
+              "effect_idSpecified": true,
+              "skill_value": 4.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                9
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 2521001,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                9
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 2531001,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                9
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 36.2184448,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 9,
+        "level": 3,
+        "time": 15.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 37.3496857,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 6,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 37.58363,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 10,
+        "count": 40,
+        "beginUid": 20510220
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 37.58363,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 4,
+        "toUid": 10,
+        "count": 69,
+        "beginUid": 20410060
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 38.5872154,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 4,
+        "count": 9,
+        "beginUid": 10204188
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 38.9381828,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 6,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 41.9056664,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 10,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 42.17164,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 4,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 42.17164,
+      "actionType": 3,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": {
+        "heroUid": 220302,
+        "targetLegionId": 1
+      },
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 43.1257057,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 10,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 45.9933777,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 3,
+        "toUid": 6,
+        "count": 13,
+        "beginUid": 10306000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 46.9899025,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 10,
+        "toUid": 3,
+        "count": 37,
+        "beginUid": 21003000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 46.9899025,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 3,
+        "count": 40,
+        "beginUid": 20503300
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 48.2631,
+      "actionType": 6,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": {
+        "c": {
+          "uid": 22341401,
+          "uidSpecified": true,
+          "skill_id": 311001,
+          "skill_idSpecified": true,
+          "skill_id_2Specified": false,
+          "src_id": 220304,
+          "src_idSpecified": true,
+          "skill_effect_item": [
+            {
+              "effect_id": 3111001,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                6
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 3121001,
+              "effect_idSpecified": true,
+              "skill_value": 1.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                6
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 3131001,
+              "effect_idSpecified": true,
+              "skill_value": 10.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [
+                6
+              ],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            },
+            {
+              "effect_id": 42,
+              "effect_idSpecified": true,
+              "skill_value": 8.0,
+              "skill_valueSpecified": true,
+              "continue_timeSpecified": false,
+              "dis_ids": [],
+              "x": 0.0,
+              "xSpecified": true,
+              "y": 0.0,
+              "ySpecified": true,
+              "z": 0.0,
+              "zSpecified": true,
+              "cur_build_uid": 0,
+              "cur_build_uidSpecified": true
+            }
+          ],
+          "skill2_effect_item": []
+        }
+      },
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 48.8299332,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 6,
+        "level": 3,
+        "time": 15.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 50.05954,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 5,
+        "count": 14,
+        "beginUid": 10205206
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 52.9175758,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 4,
+        "toUid": 9,
+        "count": 45,
+        "beginUid": 10409198
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 54.291832,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 5,
+        "count": 7,
+        "beginUid": 10205234
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 55.1987228,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 55.1987228,
+      "actionType": 3,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": {
+        "heroUid": 120303,
+        "targetLegionId": 2
+      },
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 56.2507629,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 4,
+        "count": 21,
+        "beginUid": 20504380
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 56.2507629,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 9,
+        "toUid": 4,
+        "count": 34,
+        "beginUid": 20904092
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 56.2507629,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 10,
+        "toUid": 4,
+        "count": 41,
+        "beginUid": 21004074
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 56.41916,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 3,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 56.7183,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 8,
+        "toUid": 3,
+        "count": 19,
+        "beginUid": 10803000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 57.4430847,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 6,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 57.4430847,
+      "actionType": 3,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": {
+        "heroUid": 220304,
+        "targetLegionId": 1
+      },
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 57.72709,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 3,
+        "count": 6,
+        "beginUid": 10203248
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 58.1031036,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 9,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 58.1031036,
+      "actionType": 3,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": {
+        "heroUid": 220303,
+        "targetLegionId": 1
+      },
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 59.43867,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 4,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 60.5640373,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 5,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 60.5640373,
+      "actionType": 3,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": {
+        "heroUid": 220301,
+        "targetLegionId": 1
+      },
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 61.02919,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004088
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 61.3027534,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 61.5354156,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004094
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 61.80147,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 61.93429,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.0357628,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 9,
+        "toUid": 5,
+        "count": 33,
+        "beginUid": 10905160
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.0357628,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004100
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.4352036,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.5678558,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004112
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.63488,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 62.9995422,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 9,
+        "toUid": 4,
+        "count": 26,
+        "beginUid": 10904226
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 63.03277,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 63.0992,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004106
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 63.6181145,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004114
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 64.01648,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 9,
+        "toUid": 10,
+        "count": 9,
+        "beginUid": 10910278
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 64.14925,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004110
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 64.65846,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004111
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 65.18926,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21004113
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 65.3564758,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 6,
+        "toUid": 10,
+        "count": 11,
+        "beginUid": 10610000
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.05337,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 10,
+        "toUid": 9,
+        "count": 41,
+        "beginUid": 21009156
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.05337,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 4,
+        "toUid": 9,
+        "count": 60,
+        "beginUid": 20409288
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.42551,
+      "actionType": 1,
+      "sendArm": null,
+      "uplevel": {
+        "uid": 3,
+        "level": 2,
+        "time": 7.0
+      },
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.65744,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 4,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.75693,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 20409293
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 66.82354,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 2,
+        "toUid": 3,
+        "count": 11,
+        "beginUid": 10203260
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 67.28891,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 20409291
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 67.8202438,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 8,
+        "toUid": 3,
+        "count": 8,
+        "beginUid": 10803038
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 67.8202438,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 20409299
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 68.3520355,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009160
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 68.88378,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009166
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 69.0499,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 10,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 69.31601,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 9,
+        "legionId": 2
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 69.4163742,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009172
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 69.9497147,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009178
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 70.45055,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009184
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 70.65663,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 3,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 70.95638,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009190
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 71.4216843,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 5,
+        "toUid": 9,
+        "count": 36,
+        "beginUid": 10509422
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 71.48762,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009196
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 72.02005,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009194
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 72.55193,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009188
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 72.68454,
+      "actionType": 0,
+      "sendArm": {
+        "fromUid": 4,
+        "toUid": 9,
+        "count": 13,
+        "beginUid": 10409408
+      },
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 73.08267,
+      "actionType": 4,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": {
+        "buildUid": 5,
+        "soliderUid": 21009192
+      },
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 75.1763,
+      "actionType": 2,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": {
+        "uid": 9,
+        "legionId": 1
+      },
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": null
+    },
+    {
+      "t": 75.70803,
+      "actionType": 8,
+      "sendArm": null,
+      "uplevel": null,
+      "buildLegionChange": null,
+      "heroBackstage": null,
+      "turretAtk": null,
+      "productionSkill": null,
+      "skill": null,
+      "prop": null,
+      "gameOver": {}
+    }
+  ],
+  "enterData": {
+    "overMenuId": 0,
+    "backMenuId": 0,
+    "stageId": 40001,
+    "stageIndex": 0,
+    "isRecord": false,
+    "vsmode": 0,
+    "roomId": 0,
+    "mainLegionId": 1,
+    "ownRoleId": 1,
+    "ownLegionId": 1,
+    "rivalRoleId": 0,
+    "legionList": [
+      {
+        "_prop1Factor": 1.0,
+        "_prop2Factor": 1.0,
+        "_prop3Factor": 1.0,
+        "name": "赵信他爷",
+        "roleId": 0,
+        "legionId": 1,
+        "isRobot": false,
+        "headAvatarId": 0,
+        "ai": 0,
+        "solider": {
+          "id": null,
+          "name": null,
+          "level": 1,
+          "avatarId": 0,
+          "props": [
+            {
+              "ID": 10,
+              "value": 362.0,
+              "config": {
+                "id": 10,
+                "name": "附加攻击",
+                "displayMultiplier": 40.0,
+                "format": "{0}",
+                "mapping": "AtkAdd",
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加攻击"
+              },
+              "Name": "附加攻击",
+              "id": 10,
+              "priority": 11,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加攻击",
+              "ValueStr": "362"
+            },
+            {
+              "ID": 23,
+              "value": 221.0,
+              "config": {
+                "id": 23,
+                "name": "附加防御",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "DefAdd",
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加防御"
+              },
+              "Name": "附加防御",
+              "id": 23,
+              "priority": 11,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加防御",
+              "ValueStr": "221"
+            },
+            {
+              "ID": 4,
+              "value": 1.0,
+              "config": {
+                "id": 4,
+                "name": "附加兵力上限",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "MaxHpAdd",
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加最大生命"
+              },
+              "Name": "附加兵力上限",
+              "id": 4,
+              "priority": 5,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加最大生命",
+              "ValueStr": "1"
+            },
+            {
+              "ID": 13,
+              "value": 3.0,
+              "config": {
+                "id": 13,
+                "name": "附加移动速度",
+                "displayMultiplier": 600.0,
+                "format": "{0}",
+                "mapping": "MoveSpeedAdd",
+                "priority": 14,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加移动速度"
+              },
+              "Name": "附加移动速度",
+              "id": 13,
+              "priority": 14,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加移动速度",
+              "ValueStr": "3"
+            },
+            {
+              "ID": 35,
+              "value": 50.0,
+              "config": {
+                "id": 35,
+                "name": "附加必杀（斩将值）",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "KillHeroAdd",
+                "priority": 35,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加斩将值"
+              },
+              "Name": "附加必杀（斩将值）",
+              "id": 35,
+              "priority": 35,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加斩将值",
+              "ValueStr": "50"
+            }
+          ]
+        },
+        "heroList": [
+          {
+            "name": null,
+            "heroId": 20301,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 19,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 10.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "10"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20302,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 24,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 10.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "10"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20303,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 25,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 10.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "10"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20304,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 32,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 10.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "10"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20305,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 33,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 10.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "10"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          }
+        ],
+        "maxHP": 0,
+        "hp": 0,
+        "marale": 0,
+        "head": 0,
+        "initHP": 20.0,
+        "atk": 0.0,
+        "produceSpeed": 0.0,
+        "movespeed": 0.0,
+        "totalAtk": 64.925,
+        "totalProduceSpeed": 0.34,
+        "totalMoveSpeed": 2.0,
+        "subAtk": 0.0,
+        "subProduceSpeed": 0.0,
+        "subMoveSpeed": 0.0,
+        "maxAtk": 100.0,
+        "maxProduceSpeed": 100.0,
+        "maxMovespeed": 100.0,
+        "prize": 0,
+        "level": 0,
+        "prop1Factor": 1.0,
+        "prop2Factor": 1.0,
+        "prop3Factor": 1.0,
+        "sendArmRate": 100
+      },
+      {
+        "_prop1Factor": 1.0,
+        "_prop2Factor": 1.0,
+        "_prop3Factor": 1.0,
+        "name": "Computer",
+        "roleId": 0,
+        "legionId": 2,
+        "isRobot": false,
+        "headAvatarId": 0,
+        "ai": 0,
+        "solider": {
+          "id": null,
+          "name": null,
+          "level": 1,
+          "avatarId": 0,
+          "props": [
+            {
+              "ID": 10,
+              "value": 362.0,
+              "config": {
+                "id": 10,
+                "name": "附加攻击",
+                "displayMultiplier": 40.0,
+                "format": "{0}",
+                "mapping": "AtkAdd",
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加攻击"
+              },
+              "Name": "附加攻击",
+              "id": 10,
+              "priority": 11,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加攻击",
+              "ValueStr": "362"
+            },
+            {
+              "ID": 23,
+              "value": 221.0,
+              "config": {
+                "id": 23,
+                "name": "附加防御",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "DefAdd",
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加防御"
+              },
+              "Name": "附加防御",
+              "id": 23,
+              "priority": 11,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加防御",
+              "ValueStr": "221"
+            },
+            {
+              "ID": 4,
+              "value": 1.0,
+              "config": {
+                "id": 4,
+                "name": "附加兵力上限",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "MaxHpAdd",
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加最大生命"
+              },
+              "Name": "附加兵力上限",
+              "id": 4,
+              "priority": 5,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加最大生命",
+              "ValueStr": "1"
+            },
+            {
+              "ID": 13,
+              "value": 3.0,
+              "config": {
+                "id": 13,
+                "name": "附加移动速度",
+                "displayMultiplier": 600.0,
+                "format": "{0}",
+                "mapping": "MoveSpeedAdd",
+                "priority": 14,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加移动速度"
+              },
+              "Name": "附加移动速度",
+              "id": 13,
+              "priority": 14,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加移动速度",
+              "ValueStr": "3"
+            },
+            {
+              "ID": 35,
+              "value": 50.0,
+              "config": {
+                "id": 35,
+                "name": "附加必杀（斩将值）",
+                "displayMultiplier": 1.0,
+                "format": "{0}",
+                "mapping": "KillHeroAdd",
+                "priority": 35,
+                "additive": 0,
+                "type": 1,
+                "limitMinValue": -3.40282347E+38,
+                "limitMaxValue": 3.40282347E+38,
+                "commentName": "附加斩将值"
+              },
+              "Name": "附加必杀（斩将值）",
+              "id": 35,
+              "priority": 35,
+              "additive": 0,
+              "type": 1,
+              "commentName": "附加斩将值",
+              "ValueStr": "50"
+            }
+          ]
+        },
+        "heroList": [
+          {
+            "name": null,
+            "heroId": 20301,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 101001,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 140.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "140"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20302,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 191001,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 140.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "140"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20303,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 251001,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 140.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "140"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          },
+          {
+            "name": null,
+            "heroId": 20304,
+            "buildIndex": 0,
+            "avatarId": 0,
+            "skillId": 311001,
+            "level": 1,
+            "props": [
+              {
+                "ID": 10,
+                "value": 140.0,
+                "config": {
+                  "id": 10,
+                  "name": "附加攻击",
+                  "displayMultiplier": 40.0,
+                  "format": "{0}",
+                  "mapping": "AtkAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加攻击"
+                },
+                "Name": "附加攻击",
+                "id": 10,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加攻击",
+                "ValueStr": "140"
+              },
+              {
+                "ID": 23,
+                "value": 20.0,
+                "config": {
+                  "id": 23,
+                  "name": "附加防御",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefAdd",
+                  "priority": 11,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防御"
+                },
+                "Name": "附加防御",
+                "id": 23,
+                "priority": 11,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防御",
+                "ValueStr": "20"
+              },
+              {
+                "ID": 16,
+                "value": 0.065,
+                "config": {
+                  "id": 16,
+                  "name": "附加生产速度",
+                  "displayMultiplier": 4800.0,
+                  "format": "{0}",
+                  "mapping": "ProduceSpeedAdd",
+                  "priority": 17,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加生产速度"
+                },
+                "Name": "附加生产速度",
+                "id": 16,
+                "priority": 17,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加生产速度",
+                "ValueStr": "0.065"
+              },
+              {
+                "ID": 4,
+                "value": 3.32,
+                "config": {
+                  "id": 4,
+                  "name": "附加兵力上限",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "MaxHpAdd",
+                  "priority": 5,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加最大生命"
+                },
+                "Name": "附加兵力上限",
+                "id": 4,
+                "priority": 5,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加最大生命",
+                "ValueStr": "3.32"
+              },
+              {
+                "ID": 38,
+                "value": 90.0,
+                "config": {
+                  "id": 38,
+                  "name": "附加运气（防斩将值）",
+                  "displayMultiplier": 1.0,
+                  "format": "{0}",
+                  "mapping": "DefKillHeroAdd",
+                  "priority": 38,
+                  "additive": 0,
+                  "type": 1,
+                  "limitMinValue": -3.40282347E+38,
+                  "limitMaxValue": 3.40282347E+38,
+                  "commentName": "附加防斩将值"
+                },
+                "Name": "附加运气（防斩将值）",
+                "id": 38,
+                "priority": 38,
+                "additive": 0,
+                "type": 1,
+                "commentName": "附加防斩将值",
+                "ValueStr": "90"
+              }
+            ],
+            "initHP": 0,
+            "quality": 0
+          }
+        ],
+        "maxHP": 0,
+        "hp": 0,
+        "marale": 0,
+        "head": 0,
+        "initHP": 20.0,
+        "atk": 0.0,
+        "produceSpeed": 0.0,
+        "movespeed": 0.0,
+        "totalAtk": 20.0,
+        "totalProduceSpeed": 4.0,
+        "totalMoveSpeed": 3.0,
+        "subAtk": 0.0,
+        "subProduceSpeed": 0.0,
+        "subMoveSpeed": 0.0,
+        "maxAtk": 100.0,
+        "maxProduceSpeed": 100.0,
+        "maxMovespeed": 100.0,
+        "prize": 0,
+        "level": 0,
+        "prop1Factor": 1.0,
+        "prop2Factor": 1.0,
+        "prop3Factor": 1.0,
+        "sendArmRate": 100
+      }
+    ]
+  },
+  "overData": null
+}

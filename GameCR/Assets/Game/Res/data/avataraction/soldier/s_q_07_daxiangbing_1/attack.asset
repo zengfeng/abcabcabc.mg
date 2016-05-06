@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+  m_Name: attack
+  m_EditorClassIdentifier: 
+  action: attack
+  frameTime: 0.08333
+  deltaAngle: 45
+  offsetAngle: 0
+  clips:
+  - {fileID: 11400000, guid: 2c6f44fc4bc655f40abab9dacfc84232, type: 2}
+  - {fileID: 11400000, guid: 1bd46467294b88745b6af83c1b0f6e17, type: 2}
+  - {fileID: 11400000, guid: 6826f19944b09874eb12d3a092379dad, type: 2}
+  - {fileID: 11400000, guid: 4edcd10cfcc6b284b9a604c9b8829d11, type: 2}
+  - {fileID: 11400000, guid: 89c7562f19516224f9fa1393a2da8252, type: 2}

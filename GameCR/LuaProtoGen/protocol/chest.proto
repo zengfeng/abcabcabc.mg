@@ -1,0 +1,57 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolChest";
+option optimize_for = SPEED;
+
+message C_OpenChest_0x300 {
+	required int32 chest_type = 1;  //宝箱类型： 1.在线宝箱   2.星星宝箱   3.竞技场宝箱  4.商城宝箱
+	optional int32 chest_id = 2; //竞技场宝箱和商城宝箱需要 
+	optional int32 pos = 3;      //竞技场宝箱需要 
+	required bool by_money = 4;  //0.不用金币  1.使用金币
+}
+
+message S_OpenChest_0x300 {
+	required int32 chest_type = 1;
+	optional int32 chest_id = 2;
+	optional int32 pos = 3;
+	required bool by_money = 4;
+	optional ProtoChestInfo chest_info = 5;
+}
+
+message C_SyncChestInfo_0x301 {
+}
+
+message S_SyncChestInfo_0x301 {
+	required ProtoChestInfo chest_info = 1;
+}
+
+// 1. 在线宝箱
+message C_AddOnlineChest_0x311 {
+}
+
+message S_AddOnlineChest_0x311 {
+	required int32 online_chest_count = 1;
+	required int32 next_online_chest_ticks = 2;  // -1 表示在线宝箱已满
+}
+
+// 2. 竞技场宝箱
+message C_UnlockArenaChest_0x331 {
+	required int32 pos = 1;
+}
+
+message S_UnlockArenaChest_0x331 {
+	required int32 pos = 1;
+	required int32 unlock_ticks = 2;
+}
+
+message C_PreOpenArenaChest_0x332 {
+	required int32 pos = 1;
+}
+
+message S_PreOpenArenaChest_0x332 {
+	required int32 pos = 1;
+	required int32 unlock_ticks = 2;  // 0表示预开启成功，否则预开启失败继续读秒
+}
+
+// 3. 星星宝箱
+// 4. 商城宝箱

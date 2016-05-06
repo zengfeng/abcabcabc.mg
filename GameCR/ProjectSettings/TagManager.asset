@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fx
+  - explosion
+  - ground
+  - missile
+  - shield
+  - UICamera
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Unit
+  - ObstacleRay
+  - ObstacleStar
+  - Terrain
+  - WorldUI
+  - Solider
+  - UIForward
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: War_Terrain
+    uniqueID: 3944094983
+    locked: 0
+  - name: War_BuildGround
+    uniqueID: 3496464625
+    locked: 0
+  - name: War_Shadow
+    uniqueID: 2673143337
+    locked: 0
+  - name: War_Dust
+    uniqueID: 2556766567
+    locked: 0
+  - name: War_AtkRadius
+    uniqueID: 286331771
+    locked: 0
+  - name: Home_Background
+    uniqueID: 185883147
+    locked: 0
+  - name: Home_HitArea
+    uniqueID: 2863294277
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: War_Unit
+    uniqueID: 4208182801
+    locked: 0
+  - name: War_DarkScreen
+    uniqueID: 3976193115
+    locked: 0
+  - name: War_HeroSkill
+    uniqueID: 418011697
+    locked: 0
+  - name: War_SkillEffect
+    uniqueID: 351664053
+    locked: 0

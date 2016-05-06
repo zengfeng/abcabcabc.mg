@@ -1,0 +1,392 @@
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolHall";
+option optimize_for = SPEED;
+
+// 玩家基本信息
+message ProtoRoleBaseInfo {
+	optional int32 roleId = 1;
+	optional string name = 2;
+	optional int32 icon = 3;                   //头像
+	optional int32 level = 4;                  //等级
+	optional int32 level_exp = 5;              //等级经验
+	optional int32 prize = 6;                  //奖杯
+}
+
+// 玩家统计信息
+message ProtoRoleStatisticInfo {
+	optional int32 max_prize = 1;             //最大奖杯
+	optional int32 arena_fight_win = 2;       //竞技场胜场
+	optional int32 arena_perfect_win = 3;     //竞技场三星胜场
+	optional int32 arena_fight_count = 4;     //竞技场总场数
+	optional int32 arena_streak_victory = 5;  //竞技场连胜场数(负数表示连败场次)
+	optional int32 often_fight_card = 6;      //近期常用卡牌
+	optional int32 total_card_count = 7;      //已招募卡牌数量
+	optional int32 donate_card_count = 8;     //捐赠卡牌数量
+}
+
+// 玩家展示数据
+message ProtoRoleDisplayInfo {
+	required ProtoRoleBaseInfo base_info = 1;
+	required ProtoLeagueInfo league_info = 2;
+	required ProtoRoleStatisticInfo statistic_info = 3;
+	required ProtoRoleBattleInfo battle_info = 4;
+}
+
+// 玩家数据
+message ProtoRoleInfo {
+	required ProtoRoleBaseInfo base_info = 1;     //基础信息
+	required int32 coins = 2;                     //铜钱
+	required int32 money = 3;                     //金币
+	required int32 new_guide_step = 4;            //新手引导步骤
+	required ProtoRoleBattleInfo battle_info = 5; //出战信息
+	required ProtoLeagueInfo league_info = 6; //公会信息
+	repeated int32 soldiers = 7;   	       //士兵信息
+	repeated ProtoCardInfo cards = 8;      //卡牌信息
+	required ProtoChestInfo chests = 9;    //宝箱信息
+	required ProtoShopInfo shops = 10;     //商店信息
+	repeated ProtoTaskInfo tasks = 11;     //任务信息
+	optional int32 unread_mail_count = 12; //邮件信息
+	repeated ProtoDungeonStageInfo dungeon_stages = 13; //副本信息
+	optional ProtoSignInfo signs = 14;     //签到信息
+	optional int32 status_mark = 15;       //状态标示位,由低位到高位分别:1.是否改名  2...
+}
+
+// 登陆游戏
+message C_EnterGame_0x100 {
+	required string session_id = 1;
+}
+
+message S_EnterGame_0x100 {
+	optional int32 current_server_time = 1;
+	optional ProtoRoleInfo roleInfo = 2;
+	optional string session_id =3;
+}
+
+// 重连
+message C_ReConnect_0x101 {
+	required string session_id = 1;
+}
+
+message S_ReConnect_0x101 {
+	required int32 retcode = 1;  // 0.成功 
+}
+
+// 改名
+message C_ChangeName_0x102 {
+	required string name = 1;
+}
+
+message S_ChangeName_0x102 {
+	required string name = 1;
+	optional int32 status_mark = 2;  // 状态标识位
+}
+
+// 踢玩家下线
+message S_KickOut_0x103 {
+}
+
+// 登录战斗服，加入战斗
+message C_EnterFight_0x104 {
+	required string sessionId = 1;
+}
+
+message S_EnterFight_0x104 {
+}
+
+// 改头像
+message C_ChangeHeadIcon_0x105 {
+	required int32 avatar_id = 1;
+}
+
+message S_ChangeHeadIcon_0x105 {
+	required int32 avatar_id = 1;
+}
+
+// 协议往返测试
+message C_PacketTest_0x110 {
+	optional string content = 1;
+}
+
+message S_PacketTest_0x110 {
+	optional string content = 1;
+}
+
+// 新手引导
+message C_UpdateGuideStep_0x118 {
+	required int32 new_step = 1;
+}
+
+message S_UpdateGuideStep_0x118 {
+	required int32 new_step = 1;
+	optional ProtoChestInfo chests = 2;  // 有宝箱奖励时返回
+}
+
+message C_RecordSubGuideStep_0x119 {
+	required int32 sub_step = 1;
+}
+
+message S_RecordSubGuideStep_0x119 {
+}
+
+// 查看玩家信息
+message C_GetRoleDisplayInfo_0x120 {
+	required int32 roleId = 1;
+}
+
+message S_GetRoleDisPlayInfo_0x120 {
+	required ProtoRoleDisplayInfo display_info = 1;
+}
+
+// 卡牌奖励通知
+message S_RewardInfoNotify_0x150 {
+	required int32 reward_type = 1;  // 1.任务奖励  2.宝箱奖励  3.商店奖励  4.邮件奖励  5.cdkey兑换   6.签到奖励  99.GM奖励
+	optional int32 reward_coins = 2;
+	optional int32 reward_money = 3;
+	optional int32 reward_exp = 4;
+	repeated ProtoCardInfo reward_cards = 5;
+}
+
+// 主公信息变化通知
+message S_RoleBaseInfoNotify_0x151 {
+	optional int32 level = 1;
+	optional int32 level_exp = 2;
+	optional int32 coins = 3; 
+	optional int32 money = 4;
+	optional int32 prize = 5;
+}
+
+// ----------------------------------------------
+// ------------------ 卡牌系统 ---------------------
+// ---------- card.proto (0x200 ~ 0x202) --------
+// ----------------------------------------------
+message ProtoCardInfo {
+	required int32 card_id = 1;
+	optional int32 level = 2;
+	optional int32 count = 3;
+}
+
+
+// ----------------------------------------------
+// ------------------- 宝箱系统  --------------------
+// ---------- chest.proto (0x300 ~ 0x332) -------
+// ----------------------------------------------
+message ProtoChestInfo {
+	required int32 online_chest_count = 1;
+	required int32 next_online_chest_ticks = 2;  // -1 表示在线宝箱已满
+	required int32 star_chest_starcount = 3;
+	required int32 next_star_chest_ticks = 4;  // 0表示未打开
+	repeated ProtoDropChestInfo drop_chests = 5;
+}
+
+message ProtoDropChestInfo {
+	required int32 pos = 1;
+	required int32 status = 2;  // 4种状态: 0.empty 1.lock 2.unlocking  3.preopen 4.opened
+	optional int32 chestId = 3;
+	optional int32 unlock_ticks = 4; 
+}
+
+
+// ----------------------------------------------
+// ------------------ 商城系统  ---------------------
+// ---------- shop.proto (0x400 ~ 0x401) --------
+// ----------------------------------------------
+message ProtoShopInfo {
+	required int32 next_refresh_ticks = 1;
+	repeated ProtoShopItemInfo sell_items = 2;
+}
+
+message ProtoShopItemInfo {
+	required int32 pos = 1; //位置
+	required int32 item_id = 2; //物品ID
+	required int32 item_count = 3; //物品数量
+	required int32 currency_type = 4; //货币类型。 1.铜钱 2.元宝
+	required int32 currency_cost = 5; //物品价格
+}
+
+
+// ----------------------------------------------
+// ------------------ 任务系统  ---------------------
+// ---------- task.proto (0x500 ~ 0x502) --------
+// ----------------------------------------------
+message ProtoTaskInfo {
+	required int32 task_id = 1;
+	required int32 task_type = 2;
+	required int32 task_progress = 3;
+	required int32 status = 4;  // 0:未开放  1:进行中  2.完成未领奖  3.完成已领奖
+}
+
+
+// ----------------------------------------------
+// ------------------ 录像系统  ---------------------
+// --------- video.proto (0x550 ~ 0x599) --------
+// ----------------------------------------------
+message ProtoBattleVideoInfo {
+	required int32 stageId = 1;
+	repeated ProtoBattleVideoRoleInfo fight_roles = 2;
+	optional int32 create_time = 3; //创建时间
+	optional string uuid = 4;       //视频唯一ID
+	optional bytes video_data = 5;
+	optional int32 share_time = 6;  //分享时间
+	optional int32 war_version = 7; //战斗版本
+	optional int32 uid_local = 8;   //本地视频专用
+	optional int32 view_count = 9;  //观看次数
+}
+
+message ProtoBattleVideoRoleInfo {
+	required ProtoRoleBaseInfo role_info = 1;
+	required ProtoLeagueInfo league_info = 2;
+	required ProtoRoleBattleInfo battle_info = 3;
+	required int32 end_type = 4;     //0.平局  1.胜利  2.失败
+	required int32 change_prize = 5; //奖杯数变化
+	required int32 final_house = 6;
+	required int32 final_star = 7;
+	optional int32 rank = 8;   // 排名
+}
+
+
+// -----------------------------------------------
+// ------------------ 排行榜系统  ---------------------
+// --------- rank.proto (0x600 ~ 0x600) ----------
+// -----------------------------------------------
+// 排行榜玩家信息
+message ProtoRankRoleInfo {
+	required int32 rank = 1;
+	required ProtoRoleBaseInfo role_info = 2;
+}
+
+
+// ----------------------------------------------
+// ------------------ 士兵系统  ---------------------
+// ------- soldier.proto (0x650 ~ 0x650) --------
+// ----------------------------------------------
+
+
+// ----------------------------------------------
+// ------------------ 联盟系统  ---------------------
+// -------- league.proto (0x700 ~ 0x799) --------
+// ----------------------------------------------
+message ProtoLeagueInfo {
+	optional int32 leagueId = 1;
+	optional string name = 2;
+	optional int32 icon = 3;
+	optional int32 prize = 4;
+	optional int32 member_count = 5;
+	optional string description = 6;
+	optional int32 type = 7;  // 类型: 1.允许任何人  2.批准可加入  3.不可加入
+	optional int32 need_prize = 8;
+	optional int32 location = 9;
+	optional int32 donate_card_weekly = 10;
+	repeated ProtoLeagueMemberInfo members = 11;
+}
+
+message ProtoLeagueMemberInfo {
+	required ProtoRoleBaseInfo role_info = 1;
+	required int32 job = 2;  // 职位
+	required int32 denote_cards = 3;  // 捐赠卡牌数
+}
+
+
+// ---------------------------------------------
+// ------------------ 战斗系统  --------------------
+// -------- battle.proto (0x800 ~ 0x899) -------
+// ---------------------------------------------
+// 玩家出战信息
+message ProtoRoleBattleInfo {
+	optional int32 battle_soldier = 19;        //上阵士兵
+	repeated ProtoCardInfo battle_cards = 20;  //上阵卡牌
+}
+
+// 战斗玩家信息
+message ProtoFightRoleInfo {
+	required ProtoRoleBaseInfo role_info = 1;
+	required ProtoLeagueInfo league_info = 2;
+	required ProtoRoleBattleInfo battle_info = 3;
+	optional bool is_robot = 4;    // 是否机器人
+	optional int32 team_id = 5;    // 队伍编号
+	optional int32 team_group = 6; // 联盟编号
+	optional int32 robot_ai = 7;   // 机器人AI
+	optional int32 arena_streak_victory = 8;  // 连胜连败场次
+	optional int32 rank = 9;       // 排名信息(精选视频专用)
+}
+
+message ProtoPropInfo {
+	required int32 id = 1;
+	required int32 value = 2;
+}
+
+message ProtoFightServerInfo {
+	required int32 fs_id = 1;
+	required string host = 2;
+	required int32 port = 3;
+}
+
+message ProtoRoleFightResult {
+	required int32 roleId = 1;
+	required int32 end_type = 2;  // 0.失败  1.平局  2.胜利
+	required int32 star = 3;
+	optional int32 build_count = 4;
+	optional int32 build_total = 5;
+	optional int32 team_id = 6;  // 势力ID
+}
+
+
+// ----------------------------------------------
+// ------------------ 副本系统  ---------------------
+// ------- dungeon.proto (0x900 ~ 0x999)  -------
+// ----------------------------------------------
+message ProtoDungeonStageInfo {
+	required int32 dungeonStageId = 1;
+	required int32 open_chest_count = 2;
+	repeated ProtoSubStageInfo sub_stages = 3;
+}
+
+message ProtoSubStageInfo {
+	required int32 stageId = 1;
+	required int32 star = 2;
+}
+
+
+// ----------------------------------------------
+// ------------------ 邮箱系统  ---------------------
+// --------- mail.proto (0x1000 ~ 0x1049) -------
+// ----------------------------------------------
+
+
+// ----------------------------------------------
+// ----------------- 礼品码系统  ---------------------
+// ------------- (0x1050 ~ 0x1059) --------------
+// ----------------------------------------------
+message C_ExchangeCdkey_0x1050 {
+	required string cdkey = 1;
+}
+
+message S_ExchangeCdkey_0x1050 {
+}
+
+// ----------------------------------------------
+// ----------------- 签到系统  ----------------------
+// -------- sign.proto (0x1060 ~ 0x1069) --------
+// ----------------------------------------------
+message ProtoSignInfo {
+	required int32 sign_day = 1;
+	required bool can_sign = 2;   // 是否可签到
+}
+
+// ----------------------------------------------
+// ----------------- GM调试命令  --------------------
+// ----------------------------------------------
+
+message C_GmCmd_0x1618 {
+	required string cmd = 1;
+	// 说明：  
+	// 加物品：additem 10001 10
+	// 加铜钱：addcoin 100
+	// 加元宝：addmoney 100
+	// 加体力：addstrength 100
+	// 加主公经验：addexp 100
+	// 加英雄：addhero 20001
+	// 加英雄经验：addheroexp 100
+}
+
+message S_GmCmd_0x1618 {
+}

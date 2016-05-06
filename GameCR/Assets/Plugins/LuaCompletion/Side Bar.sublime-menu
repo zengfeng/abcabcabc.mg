@@ -1,0 +1,9 @@
+[{ "caption": "-", "id": "luaComplete" },
+{
+    "caption": "Build Lua Completion",
+    "id": "build_lua_completion",
+    "command": "lua_build_definition",
+    "args": {
+        "dirs": []
+    }
+}]

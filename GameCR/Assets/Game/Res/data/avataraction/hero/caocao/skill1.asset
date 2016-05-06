@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+  m_Name: skill1
+  m_EditorClassIdentifier: 
+  action: skill1
+  frameTime: .083329998
+  deltaAngle: 90
+  offsetAngle: -45
+  clips:
+  - {fileID: 11400000, guid: d338d9c9d24a74dcfb258425e9f81786, type: 2}
+  - {fileID: 11400000, guid: 4a472c00d40714232b86b2d0d68d7ebb, type: 2}
+  - {fileID: 11400000, guid: de1fc19c66cbc4e26a0168420e551ef9, type: 2}
+  - {fileID: 11400000, guid: 186c62244bae4479384c7e3fd39a3cb2, type: 2}

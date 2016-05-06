@@ -1,0 +1,5 @@
+编号;名称;地图图片;建筑地表;
+id;name;terrain;build_ground;
+6;草地-新;map/terrain/war_map_6;map/build_ground/war_build_ground_1_caodi;
+109;草地-河流;map/map_109;;
+110;河流;map/map_110;;

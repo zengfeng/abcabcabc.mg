@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: walk_1
+  m_EditorClassIdentifier: 
+  actionName: walk
+  angle: 1
+  flip: 0
+  loop: 1
+  frames:
+  - {fileID: 21300000, guid: 2b6ebedabb4a6704da304ccbbbedbe11, type: 3}
+  - {fileID: 21300000, guid: 8ce2b4f0a9864394dab47bd8ab8a5a24, type: 3}
+  - {fileID: 21300000, guid: e05a80a07b972944bbc0793bf373f3b0, type: 3}
+  - {fileID: 21300000, guid: 144036612ab574b439878e5d3d8bbc0e, type: 3}
+  - {fileID: 21300000, guid: b5c84cf7bb9027f49819a23bea3aa568, type: 3}
+  - {fileID: 21300000, guid: 9780046376c8f1448b2b6925b54ec5d5, type: 3}
+  - {fileID: 21300000, guid: 6071807b5cfaa254a9c33da396ec3115, type: 3}
+  - {fileID: 21300000, guid: f39d9ee124d6b73479d1662bc7973609, type: 3}

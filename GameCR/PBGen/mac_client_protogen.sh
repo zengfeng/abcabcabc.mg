@@ -1,0 +1,2 @@
+protoc -I../LuaProtoGen/protocol ../LuaProtoGen/protocol/hall.proto ../LuaProtoGen/protocol/battle.proto ../LuaProtoGen/protocol/video.proto -oPackets.bin 
+mono ./clientgen/protogen.exe -i:Packets.bin -o:../Assets/Game/Scripts/CC/Runtime/Services/Packet.cs -ns:CC.Runtime.PB -p:detectMissing

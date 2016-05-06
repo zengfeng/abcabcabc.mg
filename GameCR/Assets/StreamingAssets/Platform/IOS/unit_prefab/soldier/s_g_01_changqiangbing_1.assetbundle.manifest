@@ -1,0 +1,167 @@
+ManifestFileVersion: 0
+CRC: 825083173
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28fc03ab64373b5b78fbff3bda1e6c03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37806f2803cad4d53a44502ce5c39dac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a304ba3254d14cf1afff06178e274a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/90/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/45/0006.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_45.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/315/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/015.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_180.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/270/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/018.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_135.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_180.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/270/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/315/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/90/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/180/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/45/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/225/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/315/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/315/0005.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_90.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_315.asset
+- Assets/Game/Res/data/avatar/soldier/s_g_01_changqiangbing_1.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_0.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_315.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/009.png
+- Assets/Game/Res/data/avataraction/soldier/s_g_01_changqiangbing_1/die.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/135/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/270/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/90/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/135/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/135/0004.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_135.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/270/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/012.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_225.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/90/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/180/0005.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_270.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/000.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_90.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/021.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_0.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/0/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/135/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/45/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/180/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/0/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/180/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/270/0008.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_45.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/009.png
+- Assets/Game/Res/data/avataraction/soldier/s_g_01_changqiangbing_1/walk.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/45/0004.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/315/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/0/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/45/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/45/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/000.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/0/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/225/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/0/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/006.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/walk_225.asset
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/225/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/90/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/180/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/315/015.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/135/0007.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/009.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/90/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/225/003.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/225/0008.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_g_01_changqiangbing_1/die_270.asset
+- Assets/Game/Res/unit_prefab/soldier/s_g_01_changqiangbing_1.prefab
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/0/0005.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/018.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/die/225/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/180/012.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/135/021.png
+- Assets/Game/Res/unit_texture/soldier/s_g_01_changqiangbing_1/walk/270/000.png
+Dependencies: []

@@ -1,0 +1,58 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolMail";
+option optimize_for = SPEED;
+
+message ProtoMailInfo {
+	required int32 mail_id = 1;
+	required int32 mail_type = 2;  // 0表示不属于模板邮件，大于0表示为模板邮件ID
+	required bool is_read = 3;
+	required int32 create_time = 4;
+	optional string title = 5;    // 非模板邮件特有
+	optional string content = 6;  // 非模板邮件特有
+	repeated ProtoMailAttachInfo attach = 7;	
+}
+
+message ProtoMailAttachInfo {
+	required int32 itemId = 1;
+	required int32 itemCount = 2;
+}
+
+message C_MailList_0x1000 {
+}
+
+message S_MailList_0x1000 {
+	repeated ProtoMailInfo mail_info = 1;
+}
+
+message C_GetMailAttach_0x1001 {
+	required int32 mail_id = 1;
+}
+
+message S_GetMailAttach_0x1001 {
+	required int32 mail_id = 1;
+}
+
+message C_ReadNewMail_0x1002 {
+	required int32 mail_id = 1;
+}
+
+message S_ReadNewMail_0x1002 {
+	required int32 mail_id = 1;
+}
+
+message C_DeleteMail_0x1003 {
+	required int32 mail_id = 1;
+}
+
+message S_DeleteMail_0x1003 {
+	required int32 mail_id = 1;
+}
+
+message S_NewMailNotify_0x1004 {
+	repeated ProtoMailInfo mail_info = 1;
+}
+
+message S_MailStatusNotify_0x1005 {
+	required int32 unread_mail_count = 1;  // 未读邮件数量
+}

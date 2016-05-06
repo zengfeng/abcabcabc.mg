@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: skill1_135
+  m_EditorClassIdentifier: 
+  actionName: skill1
+  angle: 135
+  flip: 0
+  loop: 0
+  frames:
+  - {fileID: 21300000, guid: b0ca0a334db0748e88818c0ba527b247, type: 3}
+  - {fileID: 21300000, guid: fb682a6242554400c972bd0a2ecae191, type: 3}
+  - {fileID: 21300000, guid: a88370854333c4419976488cd92c5f2d, type: 3}
+  - {fileID: 21300000, guid: f6dd9e71ed66745a9bcc02111bafcf61, type: 3}
+  - {fileID: 21300000, guid: 586809cab885140bda2dd004a9ac9b63, type: 3}
+  - {fileID: 21300000, guid: c54fc77e9e295428d99ae323569c05bc, type: 3}
+  - {fileID: 21300000, guid: 92547a04fad164f6bb192f523b4319eb, type: 3}
+  - {fileID: 21300000, guid: 41384775a3a1e4d389d4f344b652461a, type: 3}
+  - {fileID: 21300000, guid: 9cde5ce04d9094b33adc5b526d87b274, type: 3}
+  - {fileID: 21300000, guid: 635c3974f8d614dde9f327f5e49b43e3, type: 3}
+  - {fileID: 21300000, guid: 7987b7e39172f480e8387322040b6813, type: 3}
+  - {fileID: 21300000, guid: 31756ca82ac5c4fcb8842e383081690a, type: 3}

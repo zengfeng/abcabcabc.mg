@@ -1,0 +1,43 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolDungeon";
+option optimize_for = SPEED;
+
+message C_GetDungeonInfo_0x900 {
+}
+
+message S_GetDungeonInfo_0x900 {
+	repeated ProtoDungeonStageInfo dungeon_stages = 1;
+}
+
+message C_StartSubStage_0x901 {
+	required int32 dungeonStageId = 1;
+	required int32 substage_index = 2;
+}
+
+message S_StartSubStage_0x901 {
+	required int32 dungeonStageId = 1;
+	required int32 substage_index = 2;
+}
+
+message C_EndSubStage_0x902 {
+	required int32 winType = 1;  // 0.失败  1.平局  2.胜利
+	required int32 dungeonStageId = 2;
+	required int32 substage_index = 3;
+	required int32 star = 4;
+}
+
+message S_EndSubStage_0x902 {
+	required int32 winType = 1;  // 0.失败  1.平局  2.胜利
+	required int32 dungeonStageId = 2;
+	required int32 substage_index = 3;
+	optional ProtoDungeonStageInfo dungeon_stage = 4;
+}
+
+message C_OpenDungeonChest_0x903 {
+	required int32 dungeonStageId = 1;
+}
+
+message S_OpenDungeonChest_0x903 {
+	required ProtoDungeonStageInfo dungeon_stage = 1;
+}

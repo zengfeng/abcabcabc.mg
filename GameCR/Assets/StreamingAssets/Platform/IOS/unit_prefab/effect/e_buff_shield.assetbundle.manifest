@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2288157058
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 694f7ef950440dbe669776843932aa3c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 66836b21111ae9afcbe1e73e334fe027
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1359aeb37551d8a49b82c3d932442b18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc4f070279f26fc4eab7a0aef8205a91, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b0e429331f98694e9d35be45811230e, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Arts_Effect/e_turret/simpleFlash.png
+- Assets/Game/Res/unit_prefab/effect/e_buff_shield.prefab
+- Assets/Game/Arts_Effect/e_turret/simpleFlashAdd.mat
+Dependencies: []

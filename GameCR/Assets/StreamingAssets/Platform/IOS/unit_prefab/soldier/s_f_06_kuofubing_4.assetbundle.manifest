@@ -1,0 +1,167 @@
+ManifestFileVersion: 0
+CRC: 1544334973
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52079c4721282faf819fc8905a1eb49b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37806f2803cad4d53a44502ce5c39dac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a304ba3254d14cf1afff06178e274a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/2/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/5/0000.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_3.asset
+- Assets/Game/Res/data/avataraction/soldier/s_f_06_kuofubing_4/walk.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/1/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/5/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/2/0032.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_6.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0012.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_3.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_4.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/7/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0018.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0018.png
+- Assets/Game/Res/data/avatar/soldier/s_f_06_kuofubing_4.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/3/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0018.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/1/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/8/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/1/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0012.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_6.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_2.asset
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_7.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/5/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/7/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0018.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_5.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0015.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_8.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/3/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0006.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_7.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0006.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_5.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/6/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/8/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/2/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/6/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0018.png
+- Assets/Game/Res/data/avataraction/soldier/s_f_06_kuofubing_4/die.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/4/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/3/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0018.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/8/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0018.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/3/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/8/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/6/0000.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_1.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/6/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/4/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/1/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/1/0024.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0018.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_4.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/5/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/7/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/2/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/4/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0021.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/die_8.asset
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/6/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/7/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/6/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0009.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/8/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/8/0016.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/1/0021.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/3/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/2/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/2/0000.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0012.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/4/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/7/0003.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/7/0008.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/4/0032.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_1.asset
+- Assets/Game/Res/unit_prefab/soldier/s_f_06_kuofubing_4.prefab
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/3/0006.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/5/0015.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/die/5/0032.png
+- Assets/Game/Res/unit_texture/soldier/s_f_06_kuofubing_4/walk/4/0006.png
+- Assets/Game/Res/data/spriteanimation/soldier/s_f_06_kuofubing_4/walk_2.asset
+Dependencies: []

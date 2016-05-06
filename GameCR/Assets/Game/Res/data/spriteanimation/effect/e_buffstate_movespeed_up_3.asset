@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+  m_Name: e_buffstate_movespeed_up_3
+  m_EditorClassIdentifier: 
+  actionName: idle
+  angle: 0
+  flip: 0
+  loop: 1
+  frames:
+  - {fileID: 21300000, guid: 993b0156329ce4ccd878c2624b04e819, type: 3}
+  - {fileID: 21300000, guid: eb2b7c7882e5e424295df239849caf55, type: 3}
+  - {fileID: 21300000, guid: e9fa353102f534d09a589f8b8eb26515, type: 3}
+  - {fileID: 21300000, guid: 0e640646f3a394d56a533c066af184cb, type: 3}
+  - {fileID: 21300000, guid: 96119589b5fe94164aa7df941d3c3116, type: 3}
+  - {fileID: 21300000, guid: d0dda297b0da04e558c71e571611d47d, type: 3}

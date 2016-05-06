@@ -1,0 +1,13 @@
+[
+{
+    "caption": "KeymapManager",
+    "id": "view",
+    "children": [
+        {
+            "caption": "KeymapManager",
+            "id": "keymap-manager",
+            "command": "lua_build_definition"
+        }
+    ]
+}
+]

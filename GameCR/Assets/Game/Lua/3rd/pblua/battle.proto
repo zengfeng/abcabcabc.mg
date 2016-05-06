@@ -1,0 +1,194 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolBattle";
+option optimize_for = SPEED;
+
+// --------------------------------------------
+// ----------------- 匹配系统  --------------------
+// --------------------------------------------
+
+// 在线匹配
+message C_AttendMatcher_0x800 {
+	required int32 matcher_type = 1;  // 匹配类型: 1.1v1  2.1v1v1  3.2v2  4.1v1v1v1
+}
+
+message S_AttendMatcher_0x800 {
+}
+
+message C_LeaveMatcher_0x801 {
+}
+
+message S_LeaveMatcher_0x801 {
+}
+
+// 匹配成功
+message S_PvPMatched_0x802 {
+	required int32 matcher_type = 1;
+	required int32 battle_room_id = 2;	
+	required int32 battle_stage_id = 3;
+	repeated ProtoFightRoleInfo fight_roles = 4;
+	required ProtoFightServerInfo fight_server = 5;
+}
+
+// --------------------------------------------
+// ----------------- 战斗系统  --------------------
+// --------------------------------------------
+
+// 战斗房间准备完毕
+message S_BattleRoomPrepare_0x810 {
+}
+
+// 战斗加载进度同步
+message C_BattleLoad_0x811 {
+	required int32 progress = 1;
+}
+
+message S_BattleLoad_0x811 {
+	required int32 roleId = 1;
+	required int32 progress = 2;
+}
+
+// 战斗开始
+message S_BattleStart_0x812 {
+}
+
+// 离开战斗
+message C_BattleLeave_0x813 {
+	required int32 battle_room_id = 1;
+}
+
+message S_BattleLeave_0x813 {
+	required int32 role_id = 1;
+}
+
+// 战斗操作同步
+message C_SyncSendArm_0x820 {
+	required int32 from = 1;
+	required int32 to = 2;
+	required int32 count = 3;
+	required int32 uid_begin = 4;
+}
+
+message S_SyncSendArm_0x820 {
+	required int32 from = 1;
+	required int32 to = 2;
+	required int32 count = 3;
+	required int32 uid_begin = 4;
+}
+
+// 同步属性
+message ProtoFightUnitInfo {
+	required int32 unit_id = 1;
+	repeated ProtoPropInfo props = 2;
+}
+
+message C_SyncProp_0x821 {
+	repeated ProtoFightUnitInfo unit_props = 1;
+}
+
+message S_SyncProp_0x821 {
+	repeated ProtoFightUnitInfo unit_props = 1;
+}
+
+// 同步技能
+message SkillEffectItem
+{
+	optional int32 effect_id     = 1;//效果id
+	optional float skill_value   = 2;//技能数值
+	optional float continue_time = 3;//持续时间
+	repeated int32 dis_ids       = 4;//伤害单位id	
+	optional float x             = 5;//手动释放技能坐标
+	optional float y             = 6;//手动释放技能坐标
+	optional float z             = 7;//手动释放技能坐标
+	optional int32 cur_build_uid = 9;//当前技能释放建筑，如千里奔袭发兵城池
+}
+
+message C_SyncSkill_0x822 {
+
+	optional int32 uid                     		= 1;//技能UID
+	optional int32 skill_id                     = 2;//技能ID
+	optional int32 skill_id_2                   = 3;//技能2
+	optional int32 src_id                       = 4;//施法者所在建筑id
+	repeated SkillEffectItem skill_effect_item  = 5;//技能1效果
+	repeated SkillEffectItem skill2_effect_item = 6;//技能2效果
+}
+
+message S_SyncSkill_0x822 {
+	optional int32 uid                     		= 1;//技能UID
+	optional int32 skill_id                     = 2;//技能ID
+	optional int32 skill_id_2                   = 3;//技能2
+	optional int32 src_id                       = 4;//施法者所在建筑id
+	repeated SkillEffectItem skill_effect_item  = 5;//技能1效果
+	repeated SkillEffectItem skill2_effect_item = 6;//技能2效果
+}
+
+// 攻占敌方兵营
+message C_AttackBuild_0x823 {
+	required int32 build_index = 1;
+}
+
+// 建筑升级
+message C_SyncUplevel_0x825 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 level                   		= 2;//等级
+	optional int32 time                         = 3;//升级时间
+}
+
+message S_SyncUplevel_0x825 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 level                   		= 2;//等级
+	optional int32 time                         = 3;//升级时间
+}
+
+// 箭塔攻击
+message C_SyncTurret_0x826 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 solider_id                   = 2;//士兵ID
+}
+
+message S_SyncTurret_0x826 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 solider_id                   = 2;//士兵ID
+}
+
+// 同步建筑势力ID切换
+message C_SyncBuild_0x827 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 legion_id                   	= 2;//势力ID
+}
+
+message S_SyncBuild_0x827 {
+	optional int32 build_id                     = 1;//建筑ID
+	optional int32 legion_id                   	= 2;//势力ID
+}
+
+
+// 同步英雄下阵
+message C_SyncHeroBackstage_0x828 {
+	optional int32 hero_uid                     = 1;//英雄UID
+	optional int32 target_legion_id				= 2;//势力ID
+}
+
+message S_SyncHeroBackstage_0x828 {
+	optional int32 hero_uid                     = 1;//英雄UID
+	optional int32 target_legion_id				= 2;//势力ID
+}
+
+
+// 战斗结束
+message C_BattleEnd_0x830 {
+	repeated ProtoRoleFightResult result = 1;
+}
+
+message S_BattleEnd_0x830 {
+	required int32 prize = 1;
+	required int32 arena_fight_win = 2;
+	required int32 arena_fight_count = 3;
+	required int32 arena_streak_victory = 4;
+	required bool is_drop = 5;  // 是否掉落宝箱
+	required ProtoChestInfo chests = 6; 
+	repeated ProtoRoleFightResult fight_result = 7;  // 所有参战玩家战斗结果
+	repeated ProtoFightRoleInfo fight_roles = 8;      // 所有参展玩家信息
+	required int32 end_reason = 9;   // 1.正常结束  2.玩家退出
+	optional int32 video_type = 10;  // 视频类型: 0.普通视频   1.精选视频
+}

@@ -1,0 +1,127 @@
+import "hall.proto";
+option java_package = "game.protocol.protobuf";
+option java_outer_classname = "ProtocolLeague";
+option optimize_for = SPEED;
+
+// 联盟创建，查询，加入，退出，更新
+message C_CreateLeague_0x700 {
+	required ProtoLeagueInfo league_info = 1;
+}
+
+message S_CreateLeague_0x700 {
+	required ProtoLeagueInfo league_info = 1;
+}
+
+message C_SearchLeague_0x701 {
+	required int32 search_type = 1;  //搜索类型：1.推荐搜索   2.普通搜索   3.高级搜索
+	optional string keywords = 2;    //普通搜索关键字
+	optional int32 location = 3;
+	optional int32 min_member = 4;
+	optional int32 max_member = 5;
+	optional int32 need_prize = 6;
+	optional bool can_join = 7;
+}
+
+message S_SearchLeague_0x701 {
+	repeated ProtoLeagueInfo leagues = 1;  // 公会列表
+}
+
+message C_GetLeagueInfo_0x702 {
+	required int32 leagueId = 1;
+}
+
+message S_GetLeagueInfo_0x702 {
+	required ProtoLeagueInfo league = 1;   // 公会详细信息
+}
+
+message C_AttendLeague_0x703 {
+	required int32 leagueId = 1;
+}
+
+message S_AttendLeague_0x703 {
+	required int32 leagueId = 1;
+	required int32 result = 2;  // 1.加入成功   2.等待批准
+}
+
+message C_LeaveLeague_0x704 {
+}
+
+message S_LeaveLeague_0x704 {
+}
+
+message C_UpdateLeagueInfo_0x705 {
+	required ProtoLeagueInfo league_info = 1;
+}
+
+message S_UpdateLeagueInfo_0x705 {
+	required ProtoLeagueInfo league_info = 1;
+}
+
+// 联盟内交互
+message C_SendLeagueMessage_0x710 {
+	required string msg = 1;
+}
+
+message S_SendLeagueMessage_0x710 {
+}
+
+message C_AskReinforceCard_0x711 {
+	required int32 need_cardId = 1;
+}
+
+message S_AskReinforceCard_0x711 {
+}
+
+message C_DonateReinforceCard_0x712 {
+	required int32 roleId = 1;
+	required int32 cardId = 2;
+}
+
+message S_DonateReinforceCard_0x712 {
+}
+
+message C_AskFriendshipBattle_0x713 {
+}
+
+message S_AskFriendshipBattle_0x713 {
+}
+
+message C_ResponseFriendshipBattle_0x714 {
+}
+
+message S_ResponseFriendshipBattle_0x714 {
+}
+
+message C_PromoteMember_0x715 {
+	required int32 roleId = 1;
+}
+
+message S_PromoteMember_0x715 {
+}
+
+message C_DemoteMember_0x716 {
+	required int32 roleId = 1;
+}
+
+message S_DemoteMember_0x716 {
+}
+
+// 联盟消息通知
+message S_NewLeagueMessageNotify_0x720 {
+	repeated ProtoLeagueMessage msg = 1;
+}
+
+message S_DeleteLeagueMessageNotify_0x721 {
+	
+}
+
+message ProtoLeagueMessage {
+	required int32 msg_type = 1;  // 1.加入联盟  2.退出联盟  3.聊天消息  4.卡牌增援  5.友谊战 
+	required int32 roleId = 2;
+	required int32 name = 3;
+	required int32 time = 4;
+	optional string msg = 5;  // 聊天消息和友谊战专用
+	optional int32 reinforce_cardId = 6;  // 卡牌增援专用
+	optional int32 reinforce_card_count = 7;  // 卡牌增援专用
+}
+

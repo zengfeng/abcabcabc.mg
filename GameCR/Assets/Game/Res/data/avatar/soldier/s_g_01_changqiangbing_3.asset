@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+  m_Name: s_g_01_changqiangbing_3
+  m_EditorClassIdentifier: 
+  avatarActions:
+  - {fileID: 11400000, guid: b85e85bd2962bd946a8cf7d7d655ac56, type: 2}
+  - {fileID: 11400000, guid: 1162fdc75c33faa40ac4ee87cc7c7a96, type: 2}

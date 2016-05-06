@@ -1,0 +1,114 @@
+import "hall.proto";
+option java_package = "game.protocol.message";
+option java_outer_classname = "ProtocolLan";
+option optimize_for = SPEED;
+
+// blow is located in js-namespace
+package protocol;
+
+// 注册服务器
+message G2LZ_RegisterGameServer_0x11 {
+	required int32 gs_id = 1;
+	required string gs_name = 2;
+	required string host = 3;
+	required int32 port = 4;
+	required int32 status = 5;
+}
+
+message F2Z_RegisterFightServer_0x12 {
+	required int32 fs_id = 1;
+	required string host = 2;
+	required int32 port = 3;
+}
+
+// 登录会话
+message L2G_LoginSession_0x13 {
+	required int64 session_id = 1;
+	required int32 user_id = 2; 
+}
+
+// 竞技场在线匹配
+message G2Z_AttendMatcher_0x14 {
+	required int32 serverId = 1;
+	required int32 match_type = 2;
+	required ProtoFightRoleInfo role_info = 3;
+}
+
+message G2Z_LeaveMatcher_0x15 {
+	required int32 roleId = 1;
+}
+
+message Z2GF_PvPMatched_0x18 {
+	required int32 matcher_type = 1;
+	required int32 battle_room_id = 2;
+	required int32 battle_stage_id = 3;
+	repeated ProtoFightRoleInfo fight_roles = 4;
+	required ProtoFightServerInfo fight_server = 5;
+	optional int32 notify_roleId = 6;
+}
+
+// 战斗结算
+message F2Z_BattleEnd_0x20 {
+	repeated ProtoRoleFightResult results = 1;
+	required int32 reason = 2; // 1.正常结束  2.玩家退出
+}
+
+message Z2G_BattleEnd_0x20 {
+	required int32 roleId = 1;
+	repeated ProtoRoleFightResult result = 2;
+	required int32 reason = 3; // 1.正常结束  2.玩家退出
+}
+
+// GM平台查询协议
+message RegisterWebgmServer_0x40 {
+}
+
+message GMServerList_0x41 {
+}
+
+message GMServerListRe_0x42 {
+	repeated GMServerInfo servers = 1;
+}
+
+message GMConfigReload_0x43 {
+}
+
+message GMConfigReloadRe_0x44 {
+	required int32 ret_code = 1;
+}
+
+message GMServerInfo {
+	required int32 gs_id = 1;
+	required string gs_name = 2;
+	required string host = 3;
+	required int32 port = 4;
+	required int32 status = 5;
+}
+
+message GMRewardItem_0x60 {
+	required int32 roleId = 1;
+	required int32 itemId = 2;
+	required int32 item_count = 3;
+}
+
+message GMRewardItemRe_0x61 {
+	required int32 ret_code = 1;
+}
+
+message GMJumpGuide_0x62 {
+	required int32 roleId = 1;
+	required int32 guide_step = 2;
+}
+
+message GMJumpGuideRe_0x63 {
+	required int32 ret_code = 1;
+}
+
+message GMSendMail_0x64 {
+	required int32 roleId = 1;
+	required int32 mailId = 2;	
+}
+
+message GMSendMailRe_0x65 {
+	required int32 ret_code = 1;
+}

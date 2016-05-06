@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 1261466998
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de403cdaf5a9ba294e4c8f06766f638c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a82c3b745aa9218c66c19eb693abd9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e390c51312d54c0385a751cb42df943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ca48491dc94484882611383156729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c77582060cfce4734b071679d44a9869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 309a5b9b21c0c4f089df947a0a903922, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f68c6b1d61d8e4bf8b11602257509ddd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0007.png
+- Assets/Game/Res/data/avatar/effect/e_buff_add_soilder.asset
+- Assets/Game/Res/data/spriteanimation/effect/e_buff_add_soilder.asset
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0011.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0013.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0006.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0014.png
+- Assets/Game/Res/data/avataraction/effect/e_buff_add_soilder.asset
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0004.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0001.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0012.png
+- Assets/Game/Res/unit_prefab/effect/e_buff_add_soilder.prefab
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0009.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0003.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0008.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0005.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0002.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0010.png
+- Assets/Game/Res/unit_texture/effect/e_buff_add_soilder/skill_1_f_0015.png
+Dependencies: []

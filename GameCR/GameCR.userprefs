@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/Scripts/Modules/Guide/GuideWarConfig.cs">
+    <Files>
+      <File FileName="Assets/Game/Scripts/Modules/Guide/GuideModel.cs" Line="264" Column="55" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_LoackGuide.cs" Line="46" Column="20" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/GuideWarConfig.cs" Line="10" Column="3" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_War_UseSkillDragToCircle.cs" Line="19" Column="37" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_UnloackGuide.cs" Line="57" Column="27" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Views/GuideSkillButtonDragToCircle.cs" Line="49" Column="43" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/TestWarManager.cs" Line="12" Column="2" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_War_SetProduceSkill.cs" Line="27" Column="28" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/World/UnitData/LegionData.cs" Line="159" Column="27" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_War_ProduceSkill.cs" Line="24" Column="25" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/World/Behaviour/BLegionAI_Skill.cs" Line="45" Column="44" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/World/Behaviour/BLegionSkillManager.cs" Line="20" Column="3" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/World/Behaviour/BLegionMage.cs" Line="40" Column="23" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/GuideTypes.cs" Line="30" Column="3" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Guide_War.cs" Line="41" Column="4" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Utils/GuideLoackLevelUtils.cs" Line="106" Column="3" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_EndGuide.cs" Line="18" Column="18" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/Actions/GuideStepAction_BeginGuide.cs" Line="17" Column="18" />
+      <File FileName="Assets/Game/Scripts/Modules/Guide/GuideStepData_ProduceSkill.cs" Line="24" Column="3" />
+      <File FileName="Assets/Game/Scripts/Modules/Wars/World/UnitData/SceneData.cs" Line="49" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

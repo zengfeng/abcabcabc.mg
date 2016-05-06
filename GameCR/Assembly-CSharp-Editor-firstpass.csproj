@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7B5FDCBD-83DB-B149-A81B-AF5FEEA2CBCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\Migration\FileUtility.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\Migration\MigrationUtility.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PECache.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEDictionaryStringList.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEGameObjectInspectorOverride.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PELinkageExt.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEModificationsDrawer.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEModificationsExt.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEOverrideInternalEditor.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEPrefabScriptEditor.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEPrefabScriptExt.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEPrefs.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEResources.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PEUtils.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PropertyExposure\PEExposedPropertiesEditor.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PropertyExposure\PEPropertyHelper.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\PropertyExposure\PEPropertyPickerWindow.cs" />
+     <Compile Include="Assets\Plugins\PrefabEvolution\Sources\Editor\Tree\PETreeNode.cs" />
+     <None Include="Assets\StreamingAssets\users\2010\record\20.txt" />
+     <None Include="Assets\Game\Fonts\TimeleftFont\TimeleftFont.fnt" />
+     <None Include="Assets\Game\Fonts\TimeFont\TimeFont.fnt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\25.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\key.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\Gray.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\info.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\13.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween50.xml" />
+     <None Include="Assets\StreamingAssets\users\2010\record\23.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\19.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\Easy Save 2\changelog.txt" />
+     <None Include="Assets\ulualib\Scripts\Utility\SharpZLib\readme.txt" />
+     <None Include="Assets\art\ui\Readme.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\17.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\10.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\24.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\22.txt" />
+     <None Include="Assets\ulualib\uLua\README.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\Easy Save 2\readme.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\11.txt" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\DiffuseRim.shader" />
+     <None Include="Assets\Game\Resources\shaders\ui\ImgLight.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\28.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\26.txt" />
+     <None Include="Assets\Plugins\ConsolePro\Readme.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\GrayOffsetColor.shader" />
+     <None Include="Assets\StreamingAssets\users\4264\record\14.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\15.txt" />
+     <None Include="Assets\Game\Scripts\CC\Libs\JsonDotNet\ReadMe.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Game\Resources\shaders\Terrain_3Texture_1Shade.shader" />
+     <None Include="Assets\StreamingAssets\users\2010\record\21.txt" />
+     <None Include="Assets\Game\Resources\shaders\ui\MobileBlur.shader" />
+     <None Include="Assets\Game\Scripts\CC\Libs\protobuf-net\Web\TODO.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween43.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\info.txt" />
+     <None Include="Assets\Game\Lua\System\readme.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\9.txt" />
+     <None Include="Assets\Plugins\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\DOTween\DOTween46.xml" />
+     <None Include="Assets\StreamingAssets\users\2010\record\27.txt" />
+     <None Include="Assets\StreamingAssets\users\2010\record\key.txt" />
+     <None Include="Assets\Game\Fonts\DamageFont\DamageFont.fnt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\16.txt" />
+     <None Include="Assets\Plugins\ImageMagick\Magick.NET-Q8-x64.xml" />
+     <None Include="Assets\StreamingAssets\users\4264\record\18.txt" />
+     <None Include="Assets\StreamingAssets\users\4264\record\12.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Debuger">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/Debuger.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="ConsolePro.Editor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ConsolePro/Editor/ConsolePro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2Editor">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/Editor/ES2Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Magick.NET-Q8-x64">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ImageMagick/Magick.NET-Q8-x64.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>/Users/macserver/zf/svn/git/GameCR/Assets/Plugins/ImageMagick/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity5.3.4/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BE3B1EE9-14F5-43C3-CAAB-83698AB8B2A1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

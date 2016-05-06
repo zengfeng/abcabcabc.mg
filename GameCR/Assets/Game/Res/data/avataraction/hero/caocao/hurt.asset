@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568b6099d06d840698b1fa9223451794, type: 3}
+  m_Name: hurt
+  m_EditorClassIdentifier: 
+  action: hurt
+  frameTime: .083329998
+  deltaAngle: 90
+  offsetAngle: -45
+  clips:
+  - {fileID: 11400000, guid: aadad50c4df8c4836a9993b617a4c666, type: 2}
+  - {fileID: 11400000, guid: d64d37982660a4ad9a58f2712d715f1b, type: 2}
+  - {fileID: 11400000, guid: 3935254006bfd4abebb8297f8c5817a5, type: 2}
+  - {fileID: 11400000, guid: 1a7d52beaf3a34a898f6f5684470530d, type: 2}

@@ -1,0 +1,8 @@
+[
+  {
+    "command": "lua_auto_complete",
+    "args": {"characters": "."},
+    "keys": ["."],
+    "context": [{ "key": "selector", "operator": "equal", "operand": "source.lua" }]
+  }
+]
